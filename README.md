@@ -34,7 +34,7 @@ tours in search of the famous big 5 (Lion, Elephant, Rhino, Leopard, Buffalo) in
 With the busy modern lives of customers and a high amount of business competition in this area the site needs
 to be simple to naviagte with the information on the company & tours provided with as little mouse clicks and scrolling as possible.    
 
-## **User Goals**
+### **User Goals**
 
 * To be able to access the site via various devices (responsive) and to be able to quickley and efficently find out who African Explorers are and what they provide as a service. 
 * To be able to easily navigate between pages with clearly defined naviagtion links. 
@@ -44,9 +44,13 @@ to be simple to naviagte with the information on the company & tours provided wi
 * To be able to see testimonals from previous customers. 
 * To be able to see images (proof) of what can be seen on the tours. 
 * To have an update of recent wildife sigthings. 
+* To have social media links to see further images and ratings. 
 
+### **User Stories**
 
-
+* As a user I want to be able to access the site either at home on a desktop or on the go with mobile/tablet. 
+* As a user I want to be able to leave the site with a solid understanding of African Explorers and what they provide. 
+* As a user I want to be able to  
 
 
 
