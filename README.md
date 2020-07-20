@@ -115,6 +115,31 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 * For the testimonal and latest sighting sections of the site the background colour will be F2E7CF Champagne which will give the area a subtle highlight to draw attention and is a shade of brown/yellow found on the African plains.
 * Text colour throught the site will be black. This was chosen as it easy to read on all collours chosen.
 
+---
 ## **Wireframes**
 
 To be added soon 
+
+---
+
+## **Features**
+
+Features on the site:
+
+* Header with navigation bar
+* Email link within header
+* Banner image 
+* Images on index.html
+* Call to action find out more button
+* Scrolling testimonals (carousel)
+* Footer with social media links and email link
+* Image gallery page 
+* About us page
+* Recent sightings article 
+* Contact form 
+
+---
+
+## **Technologies Used**
+
+
