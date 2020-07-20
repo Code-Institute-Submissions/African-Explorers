@@ -12,10 +12,10 @@
         * Icons
         * Colours
 * Wireframes
-    * Technologies
     * Features
         * Features that have been implemented
         * Features that will be implemented in the future
+    * Technologies
 * Testing
 * Bugs
 * Deployment
@@ -101,7 +101,20 @@ Considering the likely age user group of the website I decided to us Roboto regu
 
 ### **Icons**
 
+Icons will be used alongside the text of navigation links to provide further useability. They will be taken from https://fontawesome.com/ and chosen to be self explantory. 
 
 
+### **Colours**
 
-![Colours](/Desktop/Toby/LearningPeople/MSI - African Explorers/colours.png)
+The colour scheme was chose on the basis that I wanted a simple, clean and visually appealing site that was emotive of colours associated with an African safari. 
+![Colours](/assets/colours.png)
+
+* For the navigation bar I will be using 41B45A Green Pantone which is a nice friendly colour and I thought green is the colour most assoicated with nature. 
+* Background colour of site will be FAFAFA white to keep it clean and easy to contrast against.  
+* When user scroll over navigation links the shade of green will change to 15795B a darker shade of green (Spanish Viridian) to show the highlight to the user which link they will be prressing. 
+* For the testimonal and latest sighting sections of the site the background colour will be F2E7CF Champagne which will give the area a subtle highlight to draw attention and is a shade of brown/yellow found on the African plains.
+* Text colour throught the site will be black. This was chosen as it easy to read on all collours chosen.
+
+## **Wireframes**
+
+To be added soon 
