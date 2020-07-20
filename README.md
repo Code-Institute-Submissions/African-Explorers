@@ -84,4 +84,15 @@ and give the impression that African Explorers are an effiecent and professional
 * Email links works. 
 * Content form is clearly labelled (including placeholders), and submit button works. 
 
+---
+
+## **Design Choices**
+
+The average age of a buying customer for safari travel is 50 years old (actually a drop from 70 over the last 20 years) showing that it is a form of travel most popular with working middle aged professionals. https://bit.ly/2WEPB0P
+
+This was very much on my mind when desiging the site. People of this age are more likely to be busy with work, commutes, and family commitments meaning time is more precious.  Because of this I want the site to be of minilistic design, straight to the point and with key information easily findable with little searching. 
+I didn't feel the need for alternative street style fonts & colours which would appeal to a younger auidence for example. 
+
+People of this age group are also likely to be on the move a lot due work & family travel commitements so I have a decided to go with a mobile first design with Bootstrap. 
+
 
