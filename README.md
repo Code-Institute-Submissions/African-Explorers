@@ -142,4 +142,32 @@ Features on the site:
 
 ## **Technologies Used**
 
+### **Languages Used**
+
+* HTML5
+* CSS3 
+* jQuery 
+
+### **Tools and Libaries**
+
+* Git (Github & Gitpod)
+* Bootstrap
+* Font Awersome 
+* Google Fonts
+
+---
+
+## **Testing**
+
+Further details on this section will be added but the initial testing plan will be to use the follow tools/methods:
+
+* W3C HTML & CSS validation services to check for bugs in HTML/CSS
+* Chrome DevTools and inspector to check to test the responsives of the site on different devices.
+* A spreadsheet will also be created to test and document the navigation links and loading times on the following browers
+    * Safari
+    * Chrome
+    * Internet Explorer
+    * Firefox 
+* A site such as https://tools.pingdom.com/ will also be used to test the speed of the site. 
+* Bootstap is also being used as it provides in built responsive on a mobile first approach and uses Flexbox instead of CSS grid which is compatiable with more browser (new and old)
 
