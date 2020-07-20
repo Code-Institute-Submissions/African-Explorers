@@ -28,7 +28,7 @@
 ### **Project Goals**
 
 The goal of this project is to provide a clear & concise online presence to the fictional business 
-African Explorers. Afrian Explorers are a tour operater who specialise in guided safari 
+African Explorers. African Explorers are a tour operater who specialise in guided safari 
 tours in search of the famous big 5 (Lion, Elephant, Rhino, Leopard, Buffalo) in the authenic wilderness of the ..... national park in Southern Africa. 
 
 With the busy modern lives of customers and a high amount of business competition in this area the site needs
@@ -170,4 +170,26 @@ Further details on this section will be added but the initial testing plan will 
     * Firefox 
 * A site such as https://tools.pingdom.com/ will also be used to test the speed of the site. 
 * Bootstap is also being used as it provides in built responsive on a mobile first approach and uses Flexbox instead of CSS grid which is compatiable with more browser (new and old)
+
+---
+
+## **Bugs**
+
+---
+
+## **Deployment** 
+
+African Explorers is built on GitPod using Git and GitHub to host the repository.
+
+Further steps to follow...
+
+---
+
+## **Credits** 
+
+* https://coolors.co/
+* Article written by Dennis Pinto on https://www.travelandleisure.com/ about the age of safari travellers
+* Code Institue 
+* My mentor Simen Daehlin 
+
 
