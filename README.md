@@ -98,3 +98,10 @@ People of this age group are also likely to be on the move a lot due work & fami
 ### **Fonts**
 
 Considering the likely age user group of the website I decided to us Roboto regular 400 as my font as it is "safe", very easy to read, and neutral. I did not think it would be right to go too creative in this case. An interesting articale on safe web fonts - https://websitesetup.org/web-safe-fonts-html-css/
+
+### **Icons**
+
+
+
+
+![Colours](/Desktop/Toby/LearningPeople/MSI - African Explorers/colours.png)
