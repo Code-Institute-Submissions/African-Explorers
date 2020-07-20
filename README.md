@@ -73,8 +73,15 @@ and give the impression that African Explorers are an effiecent and professional
 * To be provided with information on African Explorers and services. 
 * Content is clean, clear, visually appealing and easy to find.
 * Contact details and dedicated contact form is provided with a submit button and placeholders.  
-* To have a scrolling testimonals section created with a bootstrap carousel. 
+* To be able to scroll through the testimonals section, created with a bootstrap carousel. 
 
+#### Expectations
 
+* Content is visually clear, consise and appealing. 
+* Site can be viewed on any device. 
+* Navigation links work correctly and go to the correct parts of the site.
+* Navigation links open in a seperate tab. 
+* Email links works. 
+* Content form is clearly labelled (including placeholders), and submit button works. 
 
 
