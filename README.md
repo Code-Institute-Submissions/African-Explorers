@@ -62,10 +62,18 @@ to be simple to naviagte with the information on the company & tours provided wi
 and give the impression that African Explorers are an effiecent and professional company. 
 * As a site owner I want to provide a pleasing to the eye site so the user leaves with a good feeling. 
 * As a site owner I want to provide images of the tours/animals to fire the users imagination and give them a taste of the wilderness. 
-* As a site owner I want to have a scrolling testiomals section of our tours. 
+* As a site owner I want to have a scrolling testiomals section of our tours and a recent sightings section to add to user excitement of what could be expected on a tour.  
 * As a site owner I want the user to be able to contact us via their preferred communication channel. 
 
+### **User Requirements and Expectations**
 
+#### Requirements
+
+* Navigatable website with a navigation bar/links. 
+* To be provided with information on African Explorers and services. 
+* Content is clean, clear, visually appealing and easy to find.
+* Contact details and dedicated contact form is provided with a submit button and placeholders.  
+* To have a scrolling testimonals section created with a bootstrap carousel. 
 
 
 
