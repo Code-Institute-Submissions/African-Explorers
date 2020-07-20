@@ -50,7 +50,23 @@ to be simple to naviagte with the information on the company & tours provided wi
 
 * As a user I want to be able to access the site either at home on a desktop or on the go with mobile/tablet. 
 * As a user I want to be able to leave the site with a solid understanding of African Explorers and what they provide. 
-* As a user I want to be able to  
+* As a user I want to be able to find information quickley, clearly and with easy to follow navigation. 
+* As a user I want to be able to see images and testimonals of the tours. 
+* As a user I want to see contact information for the business with telephone, email and a dedicated contact form.
+* As a user I want to have links to the companies social media presence to see further images, videos and ratings. 
+
+### **Site Owner Goals**
+
+* As a site owner in this busy modern world I want the site to be straight to the point with information easy to find.
+* As a site owner I want clearly labelled navigation links and as little clicking and scrolling as possible for the user to stand out from the competition 
+and give the impression that African Explorers are an effiecent and professional company. 
+* As a site owner I want to provide a pleasing to the eye site so the user leaves with a good feeling. 
+* As a site owner I want to provide images of the tours/animals to fire the users imagination and give them a taste of the wilderness. 
+* As a site owner I want to have a scrolling testiomals section of our tours. 
+* As a site owner I want the user to be able to contact us via their preferred communication channel. 
+
+
+
 
 
 
