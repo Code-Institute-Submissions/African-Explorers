@@ -205,6 +205,7 @@ Further steps to follow...
 
 * https://coolors.co/
 * Article written by Dennis Pinto on https://www.travelandleisure.com/ about the age of safari travellers
+* Elephant banner image provided by Greg Montani from Pixabay 
 * Code Institue 
 * My mentor Simen Daehlin 
 
