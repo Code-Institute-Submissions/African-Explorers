@@ -118,7 +118,17 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 ---
 ## **Wireframes**
 
-To be added soon 
+To create my wireframes I uses a software called Balsamiq to create low fidility frames of the site. 
+I chose Balsamiq as it is user friendly and allows you to add graphical images which I find very helpful for visuilsing the site. For example the graphics
+with the navigation links and the scrolling testimonals really allowed me to get an idea of how the site could look. 
+
+I did find a slight issue with Balsamiq and that was when the desktop wireframes were exported the line under the navigation links was extended to look messy. It should be noted this is not an intentional design. 
+
+As I am buidling this site to be responsive it was very important for me to produce wireframes of desktop, mobile, and tablet. Click on the links below to see in more detail. 
+
+* [Desktop](https://github.com/TobyGreet/African-Explorers/tree/master/wireframes/desktop_wf)
+* [Tablet](https://github.com/TobyGreet/African-Explorers/tree/master/wireframes/tablet_wf)
+* [Mobile](https://github.com/TobyGreet/African-Explorers/tree/master/wireframes/mobile_wf)
 
 ---
 
