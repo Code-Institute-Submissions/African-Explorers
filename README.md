@@ -1,3 +1,6 @@
+
+![banner](/assets/images/elephant_waterhole.jpg)
+
 # **African Explorers** 
 
 ## **Contents**
@@ -107,7 +110,7 @@ Icons will be used alongside the text of navigation links to provide further usa
 ### **Colours**
 
 The colour scheme was chose on the basis that I wanted a simple, clean and visually appealing site that was emotive of colours associated with an African safari. 
-![Colours](/assets/colours.png)
+![Colours](/assets/images/colours.png)
 
 * For the navigation bar I will be using 41B45A Green Pantone which is a nice friendly colour and I thought green is the colour most associated with nature. 
 * Background colour of site will be FAFAFA white to keep it clean and easy to contrast against.  
@@ -118,7 +121,7 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 ---
 ## **Wireframes**
 
-![Colours](/wireframes/desktop_wf/index.html.png)
+![Wireframes](/wireframes/desktop_wf/index.html.png)
 
 To create my wireframes I uses a software called Balsamiq to create low fidelity frames of the site. 
 I chose Balsamiq as it is user friendly and allows you to add graphical images which I find very helpful for visualising the site. For example the graphics
