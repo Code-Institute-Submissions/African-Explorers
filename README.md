@@ -160,14 +160,17 @@ Features on the site:
 
 ### **Languages Used**
 
-* HTML5
-* CSS3 
-* jQuery 
+* HTML
+* CSS
 
 ### **Tools and Libaries**
 
-* Git (Github & Gitpod)
 * Bootstrap
+* jQuery 
+* Popper.js
+* Git 
+* Github 
+* Gitpod
 * Font Awesome 
 * Google Fonts
 
