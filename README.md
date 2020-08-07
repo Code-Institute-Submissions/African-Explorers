@@ -110,7 +110,7 @@ Icons will be used alongside the text of navigation links to provide further usa
 ### **Colours**
 
 The colour scheme was chose on the basis that I wanted a simple, clean and visually appealing site that was emotive of colours associated with an African safari. 
-![Colours](/assets/images/colours.png)
+![Colours](/wireframes/colours.png)
 
 * For the navigation bar I will be using 41B45A Green Pantone which is a nice friendly colour and I thought green is the colour most associated with nature. 
 * Background colour of site will be FAFAFA white to keep it clean and easy to contrast against.  
