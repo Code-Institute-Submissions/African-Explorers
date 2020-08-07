@@ -91,7 +91,7 @@ and give the impression that African Explorers are an efficient and professional
 
 ## **Design Choices**
 
-The average age of a buying customer for safari travel is 50 years old (actually a drop from 70 over the last 20 years) showing that it is a form of travel most popular with working middle aged professionals. https://bit.ly/2WEPB0P
+The average age of a buying customer for safari travel is [50 years old](https://www.travelandleisure.com/trip-ideas/safaris/evolution-of-safari-travel#:~:text=%22Additionally,%20the%20typical%20safari%20traveler,have%20been%20closer%20to%2070.) (actually a drop from 70 over the last 20 years) showing that it is a form of travel most popular with working middle aged professionals.
 
 This was very much on my mind when designing the site. People of this age are more likely to be busy with work, commutes, and family commitments meaning time is more precious.  Because of this I want the site to be of minlistic design, straight to the point and with key information easily findable with little searching. 
 I didn't feel the need for alternative street style fonts & colours which would appeal to a younger audience for example. 
@@ -100,11 +100,11 @@ People of this age group are also likely to be on the move a lot due work & fami
 
 ### **Fonts**
 
-Considering the likely age user group of the website I decided to us Roboto regular 400 as my font as it is "safe", very easy to read, and neutral. I did not think it would be right to go too creative in this case. An interesting article on safe web fonts - https://websitesetup.org/web-safe-fonts-html-css/
+Considering the likely age user group of the website I decided to us Roboto regular 400 as my font as it is "safe", very easy to read, and neutral. I did not think it would be right to go too creative in this case. An interesting article on [safe web fonts](https://websitesetup.org/web-safe-fonts-html-css/)
 
 ### **Icons**
 
-Icons will be used alongside the text of navigation links to provide further usability. They will be taken from https://fontawesome.com/ and chosen to be self explanatory. 
+Icons will be used alongside the text of navigation links to provide further usability. They will be taken from [font awesome](https://fontawesome.com/) and chosen to be self explanatory. 
 
 
 ### **Colours**
@@ -185,7 +185,7 @@ Further details on this section will be added but the initial testing plan will 
     * Chrome
     * Internet Explorer
     * Firefox 
-* A site such as https://tools.pingdom.com/ will also be used to test the speed of the site. 
+* A site such as [this](https://tools.pingdom.com/) will also be used to test the speed of the site. 
 * Bootstap is also being used as it provides in built responsive on a mobile first approach and uses Flexbox instead of CSS grid which is compatible with more browser (new and old)
 
 ---
@@ -204,11 +204,11 @@ Further steps to follow...
 
 ## **Credits** 
 
-* https://coolors.co/
-* Article written by Dennis Pinto on https://www.travelandleisure.com/ about the age of safari travellers
-* Elephant banner image provided by Greg Montani from Pixabay 
-* Code Institue 
-* My mentor Simen Daehlin 
+* [Coolors.co](https://coolors.co/)
+* Article written by [Dennis Pinto from Travel + Lesisure](https://www.travelandleisure.com/trip-ideas/safaris/evolution-of-safari-travel#:~:text=%22Additionally,%20the%20typical%20safari%20traveler,have%20been%20closer%20to%2070.) about the age of safari travellers
+* Elephant banner image provided by [Greg Montani at Pixabay](https://pixabay.com/users/gregmontani-1014946/) 
+* [Code Institue](https://codeinstitute.net/) 
+* My mentor [Simen Daehlin](https://github.com/Eventyret) 
 
 
 
