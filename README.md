@@ -208,7 +208,7 @@ Further steps to follow...
 * Article written by [Dennis Pinto from Travel + Lesisure](https://www.travelandleisure.com/trip-ideas/safaris/evolution-of-safari-travel#:~:text=%22Additionally,%20the%20typical%20safari%20traveler,have%20been%20closer%20to%2070.) about the age of safari travellers
 * Elephant banner image provided by [Greg Montani at Pixabay](https://pixabay.com/users/gregmontani-1014946/) 
 * [Code Institue](https://codeinstitute.net/) 
-* My mentor [Simen Daehlin](https://github.com/Eventyret) 
+* My mentor [Simen Daehlin](https://dehlin.dev/) 
 
 
 
