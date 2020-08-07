@@ -129,11 +129,9 @@ with the navigation links and the scrolling testimonials really allowed me to ge
 
 I did find a slight issue with Balsamiq and that was when the desktop wireframes were exported the line under the navigation links was extended to look messy. It should be noted this is not an intentional design. 
 
-As I am building this site to be responsive it was very important for me to produce wireframes of desktop, mobile, and tablet. Click on the links below to see in more detail. 
+As I am building this site to be responsive it was very important for me to produce wireframes of desktop, mobile, and tablet. Click on the link below to see in more detail. 
 
-* [Desktop](https://github.com/TobyGreet/African-Explorers/tree/master/wireframes/desktop_wf)
-* [Tablet](https://github.com/TobyGreet/African-Explorers/tree/master/wireframes/tablet_wf)
-* [Mobile](https://github.com/TobyGreet/African-Explorers/tree/master/wireframes/mobile_wf)
+* [Wireframes](https://github.com/TobyGreet/African-Explorers/tree/master/wireframes)
 
 
 ---
