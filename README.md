@@ -160,19 +160,19 @@ Features on the site:
 
 ### **Languages Used**
 
-* HTML
-* CSS
+* [HTML](https://en.wikipedia.org/wiki/HTML5)
+* [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
 ### **Tools and Libaries**
 
-* Bootstrap
-* jQuery 
-* Popper.js
-* Git 
-* Github 
-* Gitpod
-* Font Awesome 
-* Google Fonts
+* [Bootstrap](https://getbootstrap.com/)
+* [jQuery](https://jquery.com/)
+* [Popper.js](https://popper.js.org/)
+* [Git](https://git-scm.com/) 
+* [Github](https://github.com/) 
+* [Gitpod](https://www.gitpod.io/)
+* [Font Awesome](https://fontawesome.com/) 
+* [Google Fonts](https://fonts.google.com/)
 
 ---
 
