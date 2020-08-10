@@ -1,4 +1,14 @@
 /* ---------------------------- colors */
 .banner-placeholder {
-    background-color: green;
+    background-color: #B57E1D;
+}
+
+.nav-colour {
+    background-color:#41B45A;
+}
+/* ---------------------------- shape */
+.square {
+    height: 150px;
+    width: 150px;
+    background-color: #555;
 }
