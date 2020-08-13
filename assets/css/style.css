@@ -12,10 +12,15 @@
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 25px;
-    text-decoration: underline;
-    color: white;
-    color: black;
+    color:black;
+    text-transform: uppercase;
+    padding-right: 100px;
 }
+
+#nav-image {
+    padding-left: 5px;
+}
+
 /* ---------------------------- colors */
 .banner-placeholder {
     background-color: #B57E1D;
@@ -37,4 +42,6 @@
 .hvr-sweep-to-right:before {
     background-color: #15795b;
     height: 50px; 
+    transition-duration: .5s;
 }
+
