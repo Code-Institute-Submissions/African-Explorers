@@ -1,3 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto: 100, 200, 300, 400, 500, 600, 700|Exo:100, 200, 300, 400, 500, 600, 700');
+
+/* ---------------------------- text */
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.header-link {
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+}
+
+.navbar-collapse .nav-colour ul li a {
+    color: white;
+}
 /* ---------------------------- colors */
 .banner-placeholder {
     background-color: #B57E1D;
