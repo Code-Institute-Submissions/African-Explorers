@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto: 100, 200, 300, 400, 500, 600, 700|Exo:100, 200, 300, 400, 500, 600, 700');
 
 /* ---------------------------- header */
-.title {
+.title-text {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
 }
 
 .header-link-text {
-    text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 25px;
-    color:black;
+    font-size: 15px;
+    color: white;
     text-transform: uppercase;
-    padding-right: 100px;
 }
 
 #nav-image {
@@ -22,26 +22,25 @@
 }
 
 /* ---------------------------- colors */
-.banner-placeholder {
-    background-color: #B57E1D;
-}
 
 .nav-colour {
     background-color:#41B45A;
-    height: 50px;
-}
-/* ---------------------------- shape */
-.square {
-    height: 150px;
-    width: 150px;
-    background-color: #555;
+    height: 100px;
 }
 
-/* ---------------------------- hover.css */
-
-.hvr-sweep-to-right:before {
-    background-color: #15795b;
-    height: 50px; 
-    transition-duration: .5s;
+.footer-colour {
+    background-color:#41B45A;
 }
 
+/* ---------------------------- footer */
+.footer-icons {
+    color: white;
+    padding-top:40px; 
+    text-align: center;
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: center;
+}
