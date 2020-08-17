@@ -6,7 +6,7 @@
     font-weight: 700;
     font-size: 25px;
     color: white;
-    text-transform: uppercase;
+    text-transform: uppercase;*/
 }
 
 .header-link-text {
@@ -15,6 +15,10 @@
     font-size: 15px;
     color: white;
     text-transform: uppercase;
+}
+
+a.nav-link.header-link-text:hover {
+    color: #15795b;
 }
 
 #nav-image {
