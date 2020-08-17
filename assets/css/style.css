@@ -34,12 +34,13 @@ a.nav-link.header-link-text:hover {
 
 .footer-colour {
     background-color:#41B45A;
+    height: 50px;
 }
 
 /* ---------------------------- footer */
 .footer-icons {
     color: white;
-    padding-top:40px; 
+    padding-top:17px; 
     text-align: center;
 }
 
@@ -47,4 +48,8 @@ a.nav-link.header-link-text:hover {
     font-family: "Roboto", sans-serif;
     color: white;
     text-align: center;
+}
+
+.footer-1 {
+    padding-left: -40%;
 }
