@@ -44,12 +44,22 @@ a.nav-link.header-link-text:hover {
     text-align: center;
 }
 
+.footer-icons:hover {
+    color: #15795b;
+}
+
 .footer-text {
     font-family: "Roboto", sans-serif;
     color: white;
     text-align: center;
+    padding-top: 17px;
 }
 
-.footer-1 {
-    padding-left: -40%;
+.footer-email {
+    color: white;
 }
+
+.footer-email:hover {
+    color: #15795b;
+}
+
