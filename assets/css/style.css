@@ -34,7 +34,7 @@ a.nav-link.header-link-text:hover {
 
 .footer-colour {
     background-color:#41B45A;
-    height: 50px;
+    height: 100px;
 }
 
 /* ---------------------------- footer */
@@ -63,3 +63,8 @@ a.nav-link.header-link-text:hover {
     color: #15795b;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: 100%;
+    opacity: 70%;
+}
