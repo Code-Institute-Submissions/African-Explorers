@@ -77,6 +77,10 @@ a.nav-link.header-link-text:hover {
 .carousel-inner h5 {
     font-family: "Roboto", sans-serif;
 }
+
+#carousel-text {
+    font-weight: bold;
+}
 /* ---------------------------- colors */
 
 .nav-colour {
