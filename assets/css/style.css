@@ -6,7 +6,7 @@
     font-weight: 700;
     font-size: 25px;
     color: white;
-    text-transform: uppercase;*/
+    text-transform: uppercase;
 }
 
 .header-link-text {
@@ -28,12 +28,55 @@ a.nav-link.header-link-text:hover {
 .jumbotron {
     margin-top: 20px;
     padding-top:100px;
-    background-image: url('../images/lion1.png'); top;
+    background-image: url('../images/lion1.png');
     background-size: cover;
     color: white;
-    height: 600px;
+    height: 800px;
 }
 
+.jumbotron h1 {
+    padding-top: 5%;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.jumbotron h3 {
+    padding-top: 2%;
+    font-family: "Roboto", sans-serif;
+}
+
+.jumbotron p {
+    padding-top: 2%;
+    font-family: "Roboto", sans-serif;
+}
+
+/* ---------------------------- testimonals */
+
+.home-carousel {
+    
+}
+
+#testimonal .container-fluid {
+    margin: 0%;
+    padding-top: 6%;
+    padding-left: 0%; 
+}
+
+.carousel-control-prev {
+    left: -100px;
+}
+
+.carousel-control-next {
+    right: 100px;
+}
+
+.carousel-indicators {
+    top: 332px;
+}
+
+.carousel-inner h5 {
+    font-family: "Roboto", sans-serif;
+}
 /* ---------------------------- colors */
 
 .nav-colour {
