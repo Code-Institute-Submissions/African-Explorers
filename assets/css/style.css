@@ -50,6 +50,13 @@ a.nav-link.header-link-text:hover {
     font-family: "Roboto", sans-serif;
 }
 
+.btn-large {
+    opacity: 80%;
+    background-color:#41B45A;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
 /* ---------------------------- testimonals */
 
 .home-carousel {
