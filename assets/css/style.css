@@ -70,11 +70,11 @@ a.nav-link.header-link-text:hover {
 }
 
 .carousel-control-prev {
-    left: -100px;
+    left: 70px;
 }
 
 .carousel-control-next {
-    right: 100px;
+    right: 70px;
 }
 
 .carousel-indicators {
@@ -88,6 +88,12 @@ a.nav-link.header-link-text:hover {
 #carousel-text {
     font-weight: bold;
 }
+
+#navbarmenu {
+    background-color:#41B45A;
+    opacity: 90%;
+}
+
 /* ---------------------------- colors */
 
 .nav-colour {
