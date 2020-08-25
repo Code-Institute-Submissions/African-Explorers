@@ -34,7 +34,7 @@ a.nav-link.header-link-text:hover {
     background-size: cover;
     color: white;
     height: 800px;
-    position: fixed;
+
 }
 
 .jumbotron h1 {
@@ -63,11 +63,7 @@ a.nav-link.header-link-text:hover {
     text-transform: capitalize;
 }
 
-/* ---------------------------- Jumbotron about page */
 
-#jumbotron-about {
-    background: #F2E7CF;
-}
 
 /* ---------------------------- testimonals */
 
@@ -121,6 +117,20 @@ a.nav-link.header-link-text:hover {
     background-color:#41B45A;
 }
 
+/*-----------------------------about page */
+
+.recent-sightings {
+    background-color: #F2E7CF;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.about-text {
+    color: black;  
+}
+
+.about-page {
+    padding-top: 10px;
+}
 /* ---------------------------- footer */
 .footer-icons {
     color: white;
