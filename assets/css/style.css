@@ -26,6 +26,7 @@ a.nav-link.header-link-text:hover {
     padding-left: 5px;
 }
 
+/* ---------------------------- Jumbotron index page */
 .jumbotron {
     margin-top: 20px;
     padding-top:100px;
@@ -33,6 +34,7 @@ a.nav-link.header-link-text:hover {
     background-size: cover;
     color: white;
     height: 800px;
+    position: fixed;
 }
 
 .jumbotron h1 {
@@ -59,6 +61,12 @@ a.nav-link.header-link-text:hover {
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     text-transform: capitalize;
+}
+
+/* ---------------------------- Jumbotron about page */
+
+#jumbotron-about {
+    background: #F2E7CF;
 }
 
 /* ---------------------------- testimonals */
@@ -97,8 +105,6 @@ a.nav-link.header-link-text:hover {
     font-weight: bold;
 }
 
-
-
 /* ---------------------------- colors */
 
 #navbarmenu {
@@ -113,7 +119,6 @@ a.nav-link.header-link-text:hover {
 
 .footer-colour {
     background-color:#41B45A;
-    
 }
 
 /* ---------------------------- footer */
