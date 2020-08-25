@@ -55,10 +55,10 @@ a.nav-link.header-link-text:hover {
 }
 
 .btn-large {
-    opacity: 80%;
     background-color:#41B45A;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
 }
 
 /* ---------------------------- testimonals */
@@ -68,6 +68,7 @@ a.nav-link.header-link-text:hover {
 }
 .carousel-item p i {
     font-size: 25px;
+    text-shadow: 1px 1px black;
 }
 
 #testimonal .container-fluid {
@@ -96,12 +97,14 @@ a.nav-link.header-link-text:hover {
     font-weight: bold;
 }
 
+
+
+/* ---------------------------- colors */
+
 #navbarmenu {
     background-color:#41B45A;
     opacity: 90%;
 }
-
-/* ---------------------------- colors */
 
 .nav-colour {
     background-color:#41B45A;
