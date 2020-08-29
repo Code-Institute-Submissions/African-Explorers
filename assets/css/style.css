@@ -30,7 +30,7 @@ a.nav-link.header-link-text:hover {
 .jumbotron {
     margin-top: 20px;
     padding-top:100px;
-    background: url("../images/lion1.png") fixed center;
+    background: linear-gradient(rgba(0.2, 0, 0, 0.2), rgba(0.2, 0, 0, 0.2)), url(../images/lion1.png) fixed center;
     background-size: cover;
     color: white;
     height: 800px;
@@ -115,7 +115,7 @@ a.nav-link.header-link-text:hover {
 /*-----------------------------about page */
 
 .recent-sightings {
-    background-image: linear-gradient(to top,#ffc93c , #f2e7cf);
+    background-image: linear-gradient(to top,#ffd571 , #f2e7cf);
     border-radius: 15px 15px 15px 15px;
     border: 1px solid;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
@@ -127,6 +127,11 @@ a.nav-link.header-link-text:hover {
 
 .about-page {
     padding-top: 10px;
+}
+
+.about-img-one {
+    width: 400px;
+    height: 250px;
 }
 /* ---------------------------- footer */
 .footer-icons {
