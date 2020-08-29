@@ -27,14 +27,17 @@ a.nav-link.header-link-text:hover {
 }
 
 /* ---------------------------- Jumbotron index page */
-.jumbotron {
-    margin-top: 20px;
-    padding-top:100px;
+.my-jumbotron {
+    height: 120vh;
+    width: 100vw;
+    max-height: 100%;
     background: linear-gradient(rgba(0.2, 0, 0, 0.2), rgba(0.2, 0, 0, 0.2)), url(../images/lion1.png) fixed center;
     background-size: cover;
+    padding-top:100px;
     color: white;
-    height: 800px;
-
+}
+.jumbotron {
+    background-color: transparent;
 }
 
 .jumbotron h1 {
@@ -65,9 +68,6 @@ a.nav-link.header-link-text:hover {
 
 /* ---------------------------- testimonals */
 
-.home-carousel {
-    
-}
 .carousel-item p i {
     font-size: 20px;
     text-shadow: 1px 1px black;
@@ -84,12 +84,30 @@ a.nav-link.header-link-text:hover {
     left: 70px;
 }
 
+@media screen and (max-width: 576px) {
+  .carousel-control-prev {
+    display: none;
+  }
+}
+
 .carousel-control-next {
     right: 70px;
 }
 
+@media screen and (max-width: 576px) {
+  .carousel-control-next {
+    display: none;
+  }
+}
+
 .carousel-indicators {
-    top: 332px;
+    top: 150px;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-indicators {
+    display: none;
+  }
 }
 
 .carousel-inner h5 {
@@ -110,6 +128,7 @@ a.nav-link.header-link-text:hover {
 
 .footer-colour {
     background-color:#41B45A;
+    
 }
 
 /*-----------------------------about page */
@@ -119,6 +138,12 @@ a.nav-link.header-link-text:hover {
     border-radius: 15px 15px 15px 15px;
     border: 1px solid;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 576px) {
+  .recent-sightings {
+    display: none;
+  }
 }
 
 .about-text {
@@ -163,8 +188,3 @@ a.nav-link.header-link-text:hover {
     color: #15795b;
 }
 
-/*.img-fluid {
-    max-width: 100%;
-    height: 100%;
-    opacity: 70%;
-}*/
