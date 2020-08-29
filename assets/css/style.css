@@ -71,8 +71,9 @@ a.nav-link.header-link-text:hover {
     
 }
 .carousel-item p i {
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: 1px 1px black;
+    font-family: "Roboto", sans-serif;
 }
 
 #testimonal .container-fluid {
@@ -97,10 +98,6 @@ a.nav-link.header-link-text:hover {
     font-family: "Roboto", sans-serif;
 }
 
-#carousel-text {
-    font-weight: bold;
-}
-
 /* ---------------------------- colors */
 
 #navbarmenu {
@@ -120,8 +117,9 @@ a.nav-link.header-link-text:hover {
 /*-----------------------------about page */
 
 .recent-sightings {
-    background-color: #F2E7CF;
+    background-image: linear-gradient(to top,#ffc93c , #f2e7cf);
     border-radius: 15px 15px 15px 15px;
+
 }
 
 .about-text {
