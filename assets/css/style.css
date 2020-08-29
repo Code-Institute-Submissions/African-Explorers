@@ -132,7 +132,7 @@ a.nav-link.header-link-text:hover {
 /*-----------------------------about page */
 
 .recent-sightings {
-    background-image: linear-gradient(to top,#ffd571 , #f2e7cf);
+    background-image: linear-gradient(to top,#f2e7cf , #ffd571);
     border-radius: 15px 15px 15px 15px;
     border: 1px solid;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
@@ -155,6 +155,15 @@ a.nav-link.header-link-text:hover {
 .about-img-one {
     width: 400px;
     height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-img-two {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* ---------------------------- footer */
 .footer-icons {
