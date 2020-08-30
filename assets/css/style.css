@@ -132,10 +132,11 @@ a.nav-link.header-link-text:hover {
 /*-----------------------------about page */
 
 .recent-sightings {
-    background-image: linear-gradient(to top,#f2e7cf , #ffd571);
-    border-radius: 15px 15px 15px 15px;
-    border: 1px solid;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #f2e7cf;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 8px;
+    font-style: italic;
+    font-size: 15px;
 }
 
 @media screen and (max-width: 576px) {
@@ -150,6 +151,9 @@ a.nav-link.header-link-text:hover {
 
 .about-page {
     padding-top: 10px;
+    height: 120vh;
+    width: 100vw;
+    max-height: 100%;
 }
 
 .about-img-one {
@@ -159,11 +163,23 @@ a.nav-link.header-link-text:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.about-img-one:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 2;
+}
+
 .about-img-two {
     width: 400px;
     height: 250px;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-img-two:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 2;
 }
 /* ---------------------------- footer */
 .footer-icons {
