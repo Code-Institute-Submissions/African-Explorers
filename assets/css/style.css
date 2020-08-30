@@ -181,6 +181,24 @@ a.nav-link.header-link-text:hover {
     transition: 1s;
     z-index: 2;
 }
+
+/* ---------------------------- Image page */
+
+.image-gallery {
+    padding-bottom: 20px;
+}
+
+.gallery-photos {
+    margin-top: 25px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.gallery-photos:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 2;
+}
+
 /* ---------------------------- footer */
 .footer-icons {
     color: white;
@@ -210,4 +228,3 @@ a.nav-link.header-link-text:hover {
 .footer-email:hover {
     color: #15795b;
 }
-
