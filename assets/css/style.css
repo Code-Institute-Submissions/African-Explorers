@@ -24,14 +24,14 @@ a.nav-link.header-link-text:hover {
     padding-left: 5px;
 }
 
-/* ---------------------------- Jumbotron index page */
+/* ---------------------------- index page Jumbotron  */
 .my-jumbotron {
     height: 120vh;
     width: 100vw;
     max-height: 100%;
     background: linear-gradient(rgba(0.2, 0, 0, 0.2), rgba(0.2, 0, 0, 0.2)), url(../images/lion1.png) fixed center;
     background-size: cover;
-    padding-top:100px;
+    padding-top:5px;
     color: white;
 }
 .jumbotron {
@@ -39,13 +39,20 @@ a.nav-link.header-link-text:hover {
 }
 
 .jumbotron h1 {
-    padding-top: 5%;
+    padding-top: 5px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     text-shadow: 1px 1px black;
 }
 
 .jumbotron h3 {
+    padding-top: 105px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+.jumbotron h4 {
     padding-top: 2%;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
@@ -64,7 +71,7 @@ a.nav-link.header-link-text:hover {
     text-transform: capitalize;
 }
 
-/* ---------------------------- testimonals */
+/* ---------------------------- index page testimonals */
 
 .carousel-item p i {
     font-size: 20px;
@@ -74,7 +81,7 @@ a.nav-link.header-link-text:hover {
 
 #testimonal .container-fluid {
     margin: 0%;
-    padding-top: 6%;
+    padding-top: 2%;
     padding-left: 0%; 
 }
 
@@ -132,8 +139,8 @@ a.nav-link.header-link-text:hover {
 /*-----------------------------about page */
 
 .recent-sightings {
-    background-color: #f2e7cf;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:5px solid #f2e7cf;
+    
     padding-top: 8px;
     font-style: italic;
     font-size: 15px;
@@ -145,9 +152,6 @@ a.nav-link.header-link-text:hover {
   }
 }
 
-.about-text {
-    color: black;  
-}
 
 .about-page {
     padding-top: 10px;

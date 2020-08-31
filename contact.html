@@ -35,32 +35,32 @@
 <div class="container contact-us">
     <h1 class="text-center">Send us a message!</h1>
     <div class="row justify-content-center">
-        <div class ="col-sm-6">
+        <form class ="col-sm-6" action="mailto:toby.greet@gmail.com" method="post" enctype=”multipart/form-data>
             <div class="form-group">
                 <label>Full Name:</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Full Name" required>
             </div>
 
             <div class="form-group">
                 <label>Email address:</label>
-                    <input type="text" class="form-control">
+                    <input type="email" class="form-control" placeholder="@" aria-label="Email" required>
             </div>
 
             <div class="form-group">
-                <label>Telephone number (optional):</label>
-                    <input type="text" class="form-control">
+                <label>Telephone number:</label>
+                    <input type="tel" class="form-control" placeholder="Optional" aria-label="Telehone Number">
             </div>
 
             <div class="form-group">
                 <label>Message:</label>
-                    <textarea class="form-control" rows="7"></textarea>
+                    <textarea class="form-control" rows="7" placeholder="What would you like to know?" aria-label="Send us a message" required></textarea>
             </div>
 
             <div class="form-group">
-                <button class="btn btn-success btn-block">Send</button>
+                <button class="btn btn-success btn-block" type="submit">Send</button>
             </div>
         
-        </div>
+        </form>
     </div>
 </div>
 
