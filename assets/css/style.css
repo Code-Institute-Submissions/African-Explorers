@@ -197,6 +197,11 @@ a.nav-link.header-link-text:hover {
     color:#15795b;
     font-weight: bold;
 }
+
+dt {
+    color:#15795b;
+    font-weight: bold;
+}
 /* ---------------------------- Image page */
 .images-text {
     color:#15795b;
