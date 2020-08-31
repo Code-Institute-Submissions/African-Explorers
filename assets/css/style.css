@@ -71,6 +71,11 @@ a.nav-link.header-link-text:hover {
     text-transform: capitalize;
 }
 
+.btn-large:hover {
+    background-color: #15795b;
+    color: white;
+}
+
 /* ---------------------------- index page testimonals */
 
 .carousel-item p i {
@@ -140,7 +145,6 @@ a.nav-link.header-link-text:hover {
 
 .recent-sightings {
     border:5px solid #f2e7cf;
-    
     padding-top: 8px;
     font-style: italic;
     font-size: 15px;
@@ -152,7 +156,6 @@ a.nav-link.header-link-text:hover {
   }
 }
 
-
 .about-page {
     padding-top: 10px;
     height: 120vh;
@@ -161,8 +164,8 @@ a.nav-link.header-link-text:hover {
 }
 
 .about-img-one {
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -174,8 +177,8 @@ a.nav-link.header-link-text:hover {
 }
 
 .about-img-two {
-    width: 400px;
-    height: 250px;
+    width: 500px;
+    height: 300px;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -186,6 +189,21 @@ a.nav-link.header-link-text:hover {
     z-index: 2;
 }
 
+.about-text {
+    font-family: "Roboto", sans-serif;
+}
+
+.about-buttons {
+    background-color:#41B45A;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+
+.about-buttons:hover {
+    background-color: #15795b;
+    color: white;
+}
 /* ---------------------------- Image page */
 
 .image-gallery {
