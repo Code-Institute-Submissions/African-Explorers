@@ -170,23 +170,11 @@ a.nav-link.header-link-text:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.about-img-one:hover {
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: 2;
-}
-
 .about-img-two {
     width: 500px;
     height: 300px;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.about-img-two:hover {
-    transform: scale(1.1);
-    transition: 1s;
-    z-index: 2;
 }
 
 .about-text {
@@ -204,7 +192,16 @@ a.nav-link.header-link-text:hover {
     background-color: #15795b;
     color: white;
 }
+
+.titles-about {
+    color:#15795b;
+    font-weight: bold;
+}
 /* ---------------------------- Image page */
+.images-text {
+    color:#15795b;
+    font-weight: bold;
+}
 
 .image-gallery {
     padding-bottom: 20px;
@@ -231,6 +228,10 @@ a.nav-link.header-link-text:hover {
     padding-bottom: 10px;
 }
 
+.contact-text {
+    color:#15795b;
+    font-weight: bold;
+}
 /* ---------------------------- footer */
 .footer-icons {
     color: white;
