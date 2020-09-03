@@ -1,3 +1,15 @@
+
+body {
+    min-height: 100vh;
+}
+
+#background-image {
+    background: linear-gradient(rgba(0.4, 0, 1, 0.2), rgba(0.4, 0, 1, 0.2)), url(../images/lion1.png) fixed center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
 /* ---------------------------- NavBar */
 .title-text {
     font-family: "Roboto", sans-serif;
@@ -5,7 +17,6 @@
     font-size: 25px;
     color: white;
     text-transform: uppercase;
-    
 }
 
 .header-link-text {
@@ -26,37 +37,37 @@ a.nav-link.header-link-text:hover {
 
 /* ---------------------------- index page Jumbotron  */
 .my-jumbotron {
-    height: 120vh;
-    width: 100vw;
-    max-height: 100%;
-    background: linear-gradient(rgba(0.2, 0, 0, 0.2), rgba(0.2, 0, 0, 0.2)), url(../images/lion1.png) fixed center;
+
+    background-color: none;
     background-size: cover;
     padding-top:5px;
     color: white;
 }
 .jumbotron {
     background-color: transparent;
+    padding: 0rem;
+    margin:
 }
 
 .jumbotron h1 {
-    padding-top: 5px;
+    padding-top: 50px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 .jumbotron h3 {
-    padding-top: 105px;
+    padding-top: 110px;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 .jumbotron h4 {
     padding-top: 2%;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
-    text-shadow: 1px 1px black;
+    text-shadow: 2px 2px black;
 }
 
 .jumbotron p {
@@ -138,13 +149,11 @@ a.nav-link.header-link-text:hover {
 
 .footer-colour {
     background-color:#41B45A;
-    
 }
 
 /*-----------------------------about page */
 
 .recent-sightings {
-    border:5px solid #f2e7cf;
     padding-top: 8px;
     font-style: italic;
     font-size: 15px;
@@ -238,6 +247,12 @@ dt {
     font-weight: bold;
 }
 /* ---------------------------- footer */
+
+.my-footer {
+    position: relative;
+    padding-top: 50px;
+}
+
 .footer-icons {
     color: white;
     padding-top:25px; 
