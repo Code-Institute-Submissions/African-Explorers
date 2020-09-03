@@ -1,0 +1,287 @@
+/* ---------------------------- body */
+
+body {
+    min-height: 100vh;
+}
+
+#background-image {
+    background: linear-gradient(rgba(0.4, 0, 1, 0.2), rgba(0.4, 0, 1, 0.2)), url(../images/ariel-view.jpg) fixed no-repeat center;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.my-section {
+    min-height: 80vh;
+}
+
+/* ---------------------------- NavBar */
+.title-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.header-link-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+
+a.nav-link.header-link-text:hover {
+    color: #15795b;
+}
+
+#nav-image {
+    padding-left: 5px;
+}
+
+/* ---------------------------- index page Jumbotron  */
+.my-jumbotron {
+
+    background-color: none;
+    background-size: cover;
+    padding-top:5px;
+    color: white;
+}
+.jumbotron {
+    background-color: transparent;
+    padding: 0rem;
+    margin:
+}
+
+.jumbotron h1 {
+    padding-top: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.jumbotron h3 {
+    padding-top: 90px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.jumbotron h4 {
+    padding-top: 2%;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+.jumbotron p {
+    padding-top: 2%;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-large {
+    background-color:#41B45A;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+
+.btn-large:hover {
+    background-color: #15795b;
+    color: white;
+}
+
+/* ---------------------------- index page testimonals */
+
+.carousel-item p i {
+    font-size: 20px;
+    text-shadow: 1px 1px black;
+    font-family: "Roboto", sans-serif;
+}
+
+#testimonal .container-fluid {
+    margin: 0%;
+    padding-top: 70px;
+    padding-left: 0%; 
+}
+
+.carousel-control-prev {
+    left: 70px;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-control-prev {
+    display: none;
+  }
+}
+
+.carousel-control-next {
+    right: 70px;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-control-next {
+    display: none;
+  }
+}
+
+.carousel-indicators {
+    top: 120px;
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-indicators {
+    display: none;
+  }
+}
+
+.carousel-inner h5 {
+    font-family: "Roboto", sans-serif;
+}
+
+/* ---------------------------- colors */
+
+#navbarmenu {
+    background-color:#41B45A;
+    opacity: 90%;
+}
+
+.nav-colour {
+    background-color:#41B45A;
+    height: 100px;
+}
+
+/*-----------------------------about page */
+
+.recent-sightings {
+    padding-top: 8px;
+    font-style: italic;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .recent-sightings {
+    display: none;
+  }
+}
+
+.about-page {
+    padding-top: 10px;
+    height: 120vh;
+    width: 100vw;
+    max-height: 100%;
+}
+
+.about-img-one {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-img-two {
+    width: 500px;
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.about-text {
+    font-family: "Roboto", sans-serif;
+}
+
+.about-buttons {
+    background-color:#41B45A;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-transform: capitalize;
+}
+
+.about-buttons:hover {
+    background-color: #15795b;
+    color: white;
+}
+
+.titles-about {
+    color:#15795b;
+    font-weight: bold;
+}
+
+dt {
+    color:#15795b;
+    font-weight: bold;
+}
+/* ---------------------------- Image page */
+.images-text {
+    color:#15795b;
+    font-weight: bold;
+}
+
+.image-gallery {
+    padding-bottom: 20px;
+}
+
+.gallery-photos {
+    margin-top: 25px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+
+.gallery-photos:hover {
+    transform: scale(1.1);
+    transition: 1s;
+    z-index: 2;
+}
+
+/* ---------------------------- contact page */
+
+.contact-us {
+    background-color: #f2e7cf;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-text {
+    color:#15795b;
+    font-weight: bold;
+}
+/* ---------------------------- footer */
+.footer-colour {
+    background-color:#41B45A;
+}
+
+.my-footer {
+    position: sticky;
+    padding-top: 90px;
+}
+
+.footer-icons {
+    color: white;
+    padding-top:25px; 
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer-icons:hover {
+    color: #15795b;
+}
+
+.footer-text {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer-email {
+    color: white;
+}
+
+.footer-email:hover {
+    color: #15795b;
+}
