@@ -167,9 +167,8 @@ a.nav-link.header-link-text:hover {
 .about-page {
     padding-top: 10px;
     width: 100vw;
+    background-color:#f2e7cf;
 }
-
-
 
 .about-img-one {
     width: 31.25rem;
@@ -261,12 +260,8 @@ dt {
     padding-top: 1.5%;
 }
 /* ---------------------------- footer */
-.footer-colour {
-    
-}
 
 .my-footer {
-    
     background-color:#41B45A;
 }
 
