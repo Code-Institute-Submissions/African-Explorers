@@ -246,6 +246,10 @@ dt {
     color:#15795b;
     font-weight: bold;
 }
+
+.contact-text-title {
+    color: white;
+}
 /* ---------------------------- footer */
 .footer-colour {
     background-color:#41B45A;
