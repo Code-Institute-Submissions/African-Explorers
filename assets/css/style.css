@@ -211,6 +211,15 @@ dt {
     font-weight: bold;
 }
 /* ---------------------------- Image page */
+.images-text-title {
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    padding-top: 1.5%;
+    margin-bottom: 0!important;
+}
+
+
 .images-text {
     color: white;
     font-weight: bold;
@@ -249,15 +258,16 @@ dt {
 
 .contact-text-title {
     color: white;
+    padding-top: 1.5%;
 }
 /* ---------------------------- footer */
 .footer-colour {
-    background-color:#41B45A;
+    
 }
 
 .my-footer {
-    position: sticky;
-    padding-top: 90px;
+    
+    background-color:#41B45A;
 }
 
 .footer-icons {
