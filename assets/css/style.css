@@ -45,7 +45,7 @@ a.nav-link.header-link-text:hover {
 }
 .jumbotron {
     background-color: transparent;
-    padding: 0rem;
+    padding: 2.5%;
     margin-bottom: -17px;
     
 }
@@ -166,9 +166,7 @@ a.nav-link.header-link-text:hover {
 
 .about-page {
     padding-top: 10px;
-    height: 835px;
     width: 100vw;
-    max-height: 100%;
 }
 
 .about-img-one {
