@@ -169,16 +169,18 @@ a.nav-link.header-link-text:hover {
     width: 100vw;
 }
 
+
+
 .about-img-one {
-    width: 500px;
-    height: 300px;
+    width: 31.25rem;
+    height: 18.75rem;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about-img-two {
-    width: 500px;
-    height: 300px;
+    width: 31.25rem;
+    height: 18.75rem;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
