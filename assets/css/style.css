@@ -156,6 +156,7 @@ a.nav-link.header-link-text:hover {
     padding-top: 8px;
     font-style: italic;
     font-size: 15px;
+    background-color:#f2e7cf;
 }
 
 @media screen and (max-width: 576px) {
@@ -166,8 +167,7 @@ a.nav-link.header-link-text:hover {
 
 .about-page {
     padding-top: 10px;
-    width: 100vw;
-    background-color:#f2e7cf;
+    
 }
 
 .about-img-one {
