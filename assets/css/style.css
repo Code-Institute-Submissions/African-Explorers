@@ -3,15 +3,23 @@
     padding: 0;
 }
 
-.my-section {
-    min-height: 80vh;
-}
+/* ---------------------------- page break */
 
 .page-break {
     background-color: #41b45a;
     height: 100px;
 }
 /* ---------------------------- NavBar */
+#navbarmenu {
+    background-color:#41B45A;
+    opacity: 90%;
+}
+
+.nav-colour {
+    background-color:#41B45A;
+    height: 100px;
+}
+
 .title-text {
     font-family: "Roboto", sans-serif;
     font-weight: 700;
@@ -37,6 +45,10 @@ a.nav-link.header-link-text:hover {
 }
 
 /* ---------------------------- index page Jumbotron  */
+.my-section {
+    min-height: 80vh;
+}
+
 .my-jumbotron {
     background: linear-gradient(rgba(0.4, 0, 1, 0.2), rgba(0.4, 0, 1, 0.2)), url(../images/lion1.png) fixed no-repeat center;
     background-size: cover;
@@ -136,18 +148,6 @@ a.nav-link.header-link-text:hover {
 
 .carousel-inner h5 {
     font-family: "Roboto", sans-serif;
-}
-
-/* ---------------------------- colors */
-
-#navbarmenu {
-    background-color:#41B45A;
-    opacity: 90%;
-}
-
-.nav-colour {
-    background-color:#41B45A;
-    height: 100px;
 }
 
 /*-----------------------------about page */
