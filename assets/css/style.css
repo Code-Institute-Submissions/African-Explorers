@@ -39,7 +39,6 @@ a.nav-link.header-link-text:hover {
 /* ---------------------------- index page Jumbotron  */
 .my-jumbotron {
     background: linear-gradient(rgba(0.4, 0, 1, 0.2), rgba(0.4, 0, 1, 0.2)), url(../images/lion1.png) fixed no-repeat center;
-    height: 680px;
     background-size: cover;
     padding-top:65px;
     color: white;
@@ -48,7 +47,7 @@ a.nav-link.header-link-text:hover {
     background-color: transparent;
     padding: 0rem;
     margin-bottom: -17px;
-    height: 578px;
+    
 }
 
 .jumbotron h1 {
