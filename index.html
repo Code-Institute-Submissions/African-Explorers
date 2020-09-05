@@ -22,8 +22,8 @@
             <div class="collapse navbar-collapse" id="navbarmenu">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="#" class="nav-link header-link-text">Home<i class="fas fa-home" id="nav-image" aria-hidden="true"></i></a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link header-link-text">About<i class="fas fa-question" id="nav-image" aria-hidden="true"></i></a></li>
-                    <li class="nav-item"><a href="images.html" class="nav-link header-link-text">Images<i class="fas fa-image" id="nav-image" aria-hidden="true"></i></a></li>
+                    <li class="nav-item"><a href="#aboutus" class="nav-link header-link-text">About<i class="fas fa-question" id="nav-image" aria-hidden="true"></i></a></li>
+                    <li class="nav-item"><a href="#images" class="nav-link header-link-text">Images<i class="fas fa-image" id="nav-image" aria-hidden="true"></i></a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link header-link-text">Contact<i class="fas fa-envelope" id="nav-image" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
@@ -42,8 +42,6 @@
         <p class="text-center"><a href="about.html" class="btn btn-success btn-large" role="button">Find out more!</a></p>
     </div>
 </div>
-</div>
-<!--Jumbotron ends-->
 <!--Carousel testimonal starts (landing page)-->
 <div id="testimonal">
     <div class="container-fluid">
@@ -82,11 +80,14 @@
         </div>
     </div>
 </div>
-</section>
 <!--carousel testiomal ends (landing page)-->
+</div>
+<!--Jumbotron ends-->
+</section>
+
 
 <!--about us content starts (about page)-->
-<section>
+<section id="aboutus">
 <div class="container-fluid about-page">
     <div class="row">
         <div class="col-md-9 col-sm-12 about-text">
@@ -144,14 +145,11 @@
 <!--about us content ends (about page)-->
 
 <!--image gallery start (images page)-->
-<div class="page-break container-fluid">
-    <h2 class="my-4 text-center images-text-title">Check out some photos from our safaris!</h2>
-        <p class="text-center images-text">Click on an image to open full screen picture in a new tab.</p>
-</div>
 <section>
-    <div class="container-fluid image-gallery">
+    <div class="container-fluid image-gallery" id="images">
+        <h2 class="my-4 text-center images-text-title">Check out some photos from our safaris!</h2>
+                    <p class="text-center images-text">Click on an image to open full screen picture in a new tab.</p>
             <div class="row text-center">
-
                 <div class="col-md-4 col-xs-12">
                     <a href="assets/images/buffalos.png" class="d-block md-4" target="_blank">
                         <img class="img-fluid img-thumbnail gallery-photos" src="assets/images/buffalos.png"></a>
@@ -195,11 +193,9 @@
 <!--image gallery ends (images page)-->
 
 <!--contact us page starts (contact page)-->
-<div class="page-break container-fluid">
-<h1 class="text-center contact-text-title">Send us a message!</h1>
-</div>
 <section>
 <div class="container-fluid contact-us" id="form">
+    <h1 class="text-center contact-text-title">Send us a message!</h1>
     <div class="row justify-content-center">
         <form class ="col-sm-6" action="mailto:toby.greet@gmail.com" method="post" enctype=”multipart/form-data>
             <div class="form-group">
@@ -257,5 +253,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script>
+    $("#form").on("submit", function (event) {
+        event.preventDefault();
+        alert('This is just a sample form, your data hase not been sent anywhere!');
+    });
+</script><!--This JavaScript was provided by Mark Railton-->
 </body>
 </html>
