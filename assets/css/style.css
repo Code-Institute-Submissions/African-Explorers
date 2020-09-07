@@ -15,7 +15,7 @@
 }
 
 .title-text {
-    font-family: "Roboto", sans-serif;
+    font-family: "Pangolin", cursive;
     font-weight: 700;
     font-size: 25px;
     color: white;
@@ -44,7 +44,7 @@ a.nav-link.header-link-text:hover {
 }
 
 .my-jumbotron {
-    background: linear-gradient(rgba(0.4, 0, 1, 0.2), rgba(0.4, 0, 1, 0.2)), url(../images/rhino2.jpg) fixed no-repeat center;
+    background: linear-gradient(rgba(0.4, 0, 1, 0.2), rgba(0.4, 0, 1, 0.2)), url(../images/rhino2.jpg) no-repeat center;
     background-size: cover;
     padding-top:65px;
     color: transparent;
@@ -82,7 +82,7 @@ a.nav-link.header-link-text:hover {
 .jumbotron h3 {
     color: white;
     padding-top: 1vh;
-    font-family: "Roboto", sans-serif;
+    font-family: "Pangolin", cursive;
     font-weight: bold;
     text-shadow: 2px 2px black;
 }
@@ -238,6 +238,12 @@ dt {
 .images-text {
     color: white;
     font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.photo-credits {
+    font-size: 0.5rem;
+    padding-top: 1.5%;
     font-family: "Roboto", sans-serif;
 }
 
