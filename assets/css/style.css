@@ -319,6 +319,24 @@ dt {
     height: 100px;
 }
 
+@media (max-width: 530px) {
+    .my-footer {
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .my-footer {
+        height: 100%;
+    }
+}
+
+@media (max-width: 998px) {
+    .my-footer {
+        height: 100%;
+    }
+}
+
 .footer-icons {
     color: white;
     padding-top:25px; 
