@@ -206,6 +206,18 @@ a.nav-link.header-link-text:hover {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .recent-sightings {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .recent-sightings {
+    display: none;
+  }
+}
+
 .about-page {
     padding-top: 10px;
 }
