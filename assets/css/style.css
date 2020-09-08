@@ -218,6 +218,13 @@ a.nav-link.header-link-text:hover {
   }
 }
 
+@media screen and (max-width: 1024px) {
+    .tablet-view {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
 .about-page {
     padding-top: 10px;
 }
