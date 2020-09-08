@@ -236,11 +236,51 @@ a.nav-link.header-link-text:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+
+@media screen and (max-width: 540px) {
+    .about-img-one {
+        margin-bottom: 2%;
+    }
+}
+
 .about-img-two {
     width: 31.25rem;
     height: 18.75rem;
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 767px) {
+    .about-img-two {
+        max-width: 100vh;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about-img-two {
+        max-width: 100vh;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .about-img-two {
+        max-width: 52vh;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .about-img-two {
+        max-width: 38vh;
+        margin-top: 2%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .medium-device {
+        margin: auto;
+    }
 }
 
 .about-text {
