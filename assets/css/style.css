@@ -1,3 +1,7 @@
+html { 
+    scroll-padding-top: 100px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -51,6 +55,15 @@ a.nav-link.header-link-text:hover {
     height: 100vh;
 }
 
+@media (max-width: 530px) {
+    .my-jumbotron {
+        background: url(../images/elephant4.jpg) no-repeat center;
+        filter: brightness(130%);
+        background-size: cover;
+        height: 100vh;
+    }
+}
+
 .jumbotron {
     background-color: transparent;
     padding: 2.5%;
@@ -65,9 +78,15 @@ a.nav-link.header-link-text:hover {
     text-shadow: 2px 2px black;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
     .jumbotron h2 {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 530px) {
+    .jumbotron h2 {
+        padding-top: 5vh;
     }
 }
 
@@ -85,7 +104,7 @@ a.nav-link.header-link-text:hover {
     text-shadow: 2px 2px black;
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
     .jumbotron h3 {
         font-size: 1.5rem; 
     }
@@ -126,8 +145,13 @@ a.nav-link.header-link-text:hover {
 
 #testimonal .container-fluid {
     margin: 0%;
-    /*padding-top: 70px;*/
     padding-left: 0%; 
+}
+
+@media (max-width: 530px) {
+    #testimonal .container-fluid {
+        padding-top: 20vh;
+    }
 }
 
 .carousel-control-prev {
@@ -172,6 +196,7 @@ a.nav-link.header-link-text:hover {
     font-size: 15px;
     background-color:#f2e7cf;
     border-radius: 15px;
+    box-shadow: 0 0 10px;
 }
 
 @media screen and (max-width: 576px) {
