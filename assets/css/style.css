@@ -29,7 +29,7 @@ html {
 .header-link-text {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     color: white;
     text-transform: uppercase;
 }
@@ -421,10 +421,10 @@ dt {
 
 .footer-icons {
     color: white;
-    padding-top:25px; 
+    padding-top:30px; 
     text-align: center;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .footer-icons:hover {
@@ -435,9 +435,9 @@ dt {
     font-family: "Roboto", sans-serif;
     color: white;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 30px;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .footer-email {
