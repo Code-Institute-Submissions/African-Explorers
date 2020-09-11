@@ -192,6 +192,9 @@ For testing the site I used the following tools/methods.
 ### [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
 This proved very useful in the production of the site as it allowed me to not only fix bugs whilst creating the site but I could also play around with styling to what worked best on different screen sizes. It has an inbuilt features to view my site in reponsive and handheld devices. 
 
+![Chrome tools big screen](/assets/images/Chrome-tools-1.jpg)
+![Chrome tools small screen](/assets/images/Chrome-tools-2.jpg)
+
 ### [W3C HTML validator](https://validator.w3.org/) 
 This was used to check my HTML for errors. It found the below errors which I fixed by removing type="button" which was not necessary.
 I was also able to remove an redundant id="nav-image" which if used should have actually been a class as it was used more than once for styling. 
@@ -209,14 +212,55 @@ After fixing these issues the results returned as no errors.
 
 ![CSS validator no errors](/assets/images/CSS-Validator-no-errors.jpg)
 
-* Chrome DevTools and inspector to check to test the responsiveness of the site on different devices.
-* A spreadsheet will also be created to test and document the navigation links and loading times on the following browsers
-    * Safari
-    * Chrome
-    * Internet Explorer
-    * Firefox 
-* A site such as [this](https://tools.pingdom.com/) will also be used to test the speed of the site. 
-* Bootstap is also being used as it provides in built responsive on a mobile first approach and uses Flexbox instead of CSS grid which is compatible with more browser (new and old)
+
+**Manual Testing** 
+
+Here I tested all the links on the page and display of background images on different browsers. Below are my results:
+
+![Manual Testing](/assets/images/Manual-Testing.jpg)
+
+
+**Responsiveness**
+
+To test responsiveness I used Chrome Developer tools to see how my site would display on different devices. 
+This allowed me to test on the following devices:
+
+* Moto G4
+* Galaxy S5
+* Pixel 2
+* Pixel 2 XL
+* Iphone 5
+* Iphone 6/7/8
+* Iphone 6/7/8/Plus
+* Iphone X
+* Ipad
+* Ipad Project
+* Surface document
+* Galaxy fold 
+
+I also used the responsive option to test how it looked on the different bootstrap breakpoints of:
+
+* 576px
+* 768px
+* 992px
+* 1200px
+
+And various random sizes. 
+
+As explained in the [Bugs](#bugs) section of this document there was some issues with responsiveness for the background image, carousel, and about us section. These discovered using Chrome tools and fixed with media queries.
+
+**Speed**
+
+I tested the speed of the site using [Pingdom](https://tools.pingdom.com/) a free website. It returned the below result.
+
+![Speed](/assets/images/page-speed.jpg)
+
+It returned a grade C so could be better but it still loads in under a second which is a good load speed. 
+
+**Contact form**
+
+With the contact form the main two things I wanted to check was that if information was not filled in a required field it would display an error message which it did. The second aspect being that once filled in and the send button hit it
+returned a message saying "this is just a sample form and your data has not been sent anywhere, which it did. 
 
 ---
 
