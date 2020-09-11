@@ -217,7 +217,7 @@ After fixing these issues the results returned as no errors.
 
 Here I tested all the links on the page and display of background images on different browsers. Below are my results:
 
-![Manual Testing](/assets/images/Manual-Testing.jpg)
+![Manual Testing](/assets/images/manual-testing2.jpg)
 
 
 **Responsiveness**
@@ -247,7 +247,7 @@ I also used the responsive option to test how it looked on the different bootstr
 
 And various random sizes. 
 
-As explained in the [Bugs](#bugs) section of this document there was some issues with responsiveness for the background image, carousel, and about us section. These discovered using Chrome tools and fixed with media queries.
+As explained in the [Bugs](#bugs) section of this document there was some issues with responsiveness for the background image, carousel, and about us section. These were discovered using Chrome tools and fixed with media queries.
 
 **Speed**
 
