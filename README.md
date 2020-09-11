@@ -21,6 +21,9 @@
     * [Technologies](#technologies-used)
 * [Testing](#testing)
 * [Bugs](#bugs)
+* [Finished site](#finished-site)
+    * Additional font
+    * Aditional colour
 * [Deployment](#deployment)
 * [Credit](#credits) 
 
@@ -102,6 +105,7 @@ People of this age group are also likely to be on the move a lot due work & fami
 
 Considering the likely age user group of the website I decided to us Roboto regular 400 as my font as it is "safe", very easy to read, and neutral. I did not think it would be right to go too creative in this case. An interesting article on [safe web fonts](https://websitesetup.org/web-safe-fonts-html-css/)
 
+
 ### **Icons**
 
 Icons will be used alongside the text of navigation links to provide further usability. They will be taken from [font awesome](https://fontawesome.com/) and chosen to be self explanatory. 
@@ -117,11 +121,6 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 * When user scroll over navigation links the shade of green will change to 15795B a darker shade of green (Spanish Viridian) to show the highlight to the user which link they will be pressing. 
 * For the testimonial and latest sighting sections of the site the background colour will be F2E7CF Champagne which will give the area a subtle highlight to draw attention and is a shade of brown/yellow found on the African plains.
 * Text colour through the site will be black. This was chosen as it easy to read on all colours chosen.
-
-### **Additonal colours used in finished site**
-
-An additonal colour of 91D18B which is a light green was added as a background colour to the image gallery section of the site. This is because the site was changed to a single page layout on advise from one of my mentors and I needed
-to signify a new section. The colour visually matched well with the rest of the site and suits the theme (safari).
 
 ---
 ## **Wireframes**
@@ -196,6 +195,22 @@ Further details on this section will be added but the initial testing plan will 
 ---
 
 ## **Bugs**
+
+---
+
+## **Finished site**
+
+### **Additonal font used in finished site**
+
+In the finished site I also used a font called Pangolin, cursive as I wanted to give a different style to the title in the navbar to give more of a logo look and feel to it. I felt this font suited the African theme and it is even named after a rare
+noctural animal found in Southern Africa. This font was also used for the title on the recent sightings section and within the jumbotron.
+
+### **Additonal colours used in finished site**
+
+An additonal colour of 91D18B which is a light green was added as a background colour to the image gallery section of the site. This is because the site was changed to a single page layout on advise from one of my mentors and I needed
+to signify a new section. The colour visually matched well with the rest of the site and suits the theme (safari).
+
+
 
 ---
 
