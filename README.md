@@ -205,10 +205,24 @@ Further steps to follow...
 ## **Credits** 
 
 * [Coolors.co](https://coolors.co/)
-* Article written by [Dennis Pinto from Travel + Lesisure](https://www.travelandleisure.com/trip-ideas/safaris/evolution-of-safari-travel#:~:text=%22Additionally,%20the%20typical%20safari%20traveler,have%20been%20closer%20to%2070.) about the age of safari travellers
-* Elephant banner image provided by [Greg Montani at Pixabay](https://pixabay.com/users/gregmontani-1014946/) 
-* [Code Institue](https://codeinstitute.net/) 
-* My mentor [Simen Daehlin](https://dehlin.dev/) 
+* Article written by [Dennis Pinto from Travel + Lesisure](https://www.travelandleisure.com/trip-ideas/safaris/evolution-of-safari-travel#:~:text=%22Additionally,%20the%20typical%20safari%20traveler,have%20been%20closer%20to%2070.) about the age of safari travellers 
+* [Code Institue](https://codeinstitute.net/) and the very helpful tutors
+* My mentors for this project [Simen Daehlin](https://dehlin.dev/) and [Mark Railton](https://github.com/railto)
+* Images
+    * Elephant banner image for Readme provided by [Greg Montani at Pixabay](https://pixabay.com/users/gregmontani-1014946/)
+    * Rhino background image for large devices provided by [Lucas Alexander at Unsplash](https://unsplash.com/@lucasalexander)
+    * Elephant background image on handheld devices provided by [Geran de Klerk at Unsplash](https://unsplash.com/@gerandeklerk)
+    * Aerial view image of okavango Delta on about section provided by [Wynand Uys at Unsplash](https://unsplash.com/@wynand_uys)
+    * Vehical driving at sunset image on about section provided by [Hu Chen at Unsplash](https://unsplash.com/@huchenme)
+    * Leopard in tree image provided by [Colin Watts at Unsplash](https://unsplash.com/@imagefactory)
+    * Male Lion image provided by [Dan Horn at Unsplash](https://unsplash.com/@dhorn)
+    * Elephant close up image provided by [Sam Bayle at Unsplash](https://unsplash.com/@sbk202)
+    * Rhino at waterhole image provided by [Jame Bloor Griffiths at Shutterstock](https://www.shutterstock.com/g/thewildside)
+    * Buffalo and Wild dogs image provided by [Martin Mecnarowski at Shutterstock](https://www.shutterstock.com/g/martin%20mecnarowski?page=2)
+    * Landscape view of delta image provided by [Evenfh at shutterstock](https://www.shutterstock.com/es/g/evenfh)
+    * Canoe on the river image provided by [Gil.K at Shutterstock](https://www.shutterstock.com/es/g/gilk)
+    * Leopard spotted from safari vehicle image provided by [Sirtravelalot at Shutterstock](https://www.shutterstock.com/es/g/mooddboard)
+    * Wildebeest at sunset image provide by [Jonathan Pledger](https://www.shutterstock.com/es/g/catfishphotography)
 
 
 
