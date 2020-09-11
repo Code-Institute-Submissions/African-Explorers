@@ -7,7 +7,7 @@ html {
     padding: 0;
 }
 
-/* ---------------------------- NavBar */
+/* ------------------------------------------------------ NAVBAR ----------------------------------------------------------------*/
 #navbarmenu {
     background-color:#41B45A;
     opacity: 90%;
@@ -18,7 +18,7 @@ html {
     height: 100px;
 }
 
-.title-text {
+#title-text {
     font-family: "Pangolin", cursive;
     font-weight: 700;
     font-size: 25px;
@@ -38,11 +38,7 @@ a.nav-link.header-link-text:hover {
     color: #15795b;
 }
 
-#nav-image {
-    padding-left: 5px;
-}
-
-/* ---------------------------- index page Jumbotron  */
+/* --------------------------------------------------- INDEX PAGE JUMBOTRON ----------------------------------------------- */
 .my-section {
     min-height: 80vh;
 }
@@ -55,7 +51,7 @@ a.nav-link.header-link-text:hover {
     height: 100vh;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 530px) { /* ---------------------------- Media query */
     .my-jumbotron {
         background: url(../images/elephant4.jpg) no-repeat center;
         filter: brightness(130%);
@@ -78,19 +74,19 @@ a.nav-link.header-link-text:hover {
     text-shadow: 2px 2px black;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) { /* ---------------------------- Media query */
     .jumbotron h2 {
         font-size: 2rem;
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 530px) { /* ---------------------------- Media query */
     .jumbotron h2 {
         padding-top: 5vh;
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 360px) { /* ---------------------------- Media query */
     .jumbotron h2 {
         font-size: 1.5rem;
     }
@@ -136,7 +132,7 @@ a.nav-link.header-link-text:hover {
     color: white;
 }
 
-/* ---------------------------- index page testimonals */
+/* ------------------------------------------------ INDEX PAGE CAROUSEL/TESTIMONALS --------------------------------------------*/
 
 .carousel-item p i {
     font-size: 20px;
@@ -149,7 +145,7 @@ a.nav-link.header-link-text:hover {
     padding-left: 0%; 
 }
 
-@media (max-width: 530px) {
+@media (max-width: 530px) { /* ---------------------------- Media query */
     #testimonal .container-fluid {
         padding-top: 20vh;
     }
@@ -159,7 +155,7 @@ a.nav-link.header-link-text:hover {
     left: 70px;
 }
 
-@media screen and (max-width: 629px) {
+@media screen and (max-width: 629px) { /* ---------------------------- Media query */
   .carousel-control-prev {
     display: none;
   }
@@ -169,7 +165,7 @@ a.nav-link.header-link-text:hover {
     right: 70px;
 }
 
-@media screen and (max-width: 629px) {
+@media screen and (max-width: 629px) { /* ---------------------------- Media query */
   .carousel-control-next {
     display: none;
   }
@@ -179,7 +175,7 @@ a.nav-link.header-link-text:hover {
     top: 120px;
 }
 
-@media screen and (max-width: 629px) {
+@media screen and (max-width: 629px) { /* ---------------------------- Media query */
   .carousel-indicators {
     display: none;
   }
@@ -190,6 +186,20 @@ a.nav-link.header-link-text:hover {
 }
 
 /*-----------------------------about page */
+.about-page {
+    padding-top: 10px;
+}
+
+.about-text {
+    font-family: "Roboto", sans-serif;
+}
+
+#recent-title {
+    font-family: "Pangolin", cursive;
+    font-size: 18px;
+    color:#15795b;
+    font-weight: bold;
+}
 
 .recent-sightings {
     padding-top: 8px;
@@ -201,32 +211,27 @@ a.nav-link.header-link-text:hover {
     right: 0.5%;
 }
 
-
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) { /* ---------------------------- Media query */
   .recent-sightings {
     display: none;
   }
 }
 
-.about-page {
-    padding-top: 10px;
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) { /* ---------------------------- Media query */
     .medium-large-devices {
         flex: 0 0 100%;
         max-width: 100%;
     }
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) { /* ---------------------------- Media query */
     .medium-large-devices {
         flex: 0 0 100%;
         max-width: 100%;
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) { /* ---------------------------- Media query */
     .small-device {
         margin-bottom: 2%
     }
@@ -239,19 +244,19 @@ a.nav-link.header-link-text:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { /* ---------------------------- Media query */
     .about-img-one {
         margin-top: 8%;
     }
 }
 
-@media screen and (min-width: 993px) {
+@media screen and (min-width: 993px) { /* ---------------------------- Media query */
     .about-img-one {
         margin-top: 8%;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) { /* ---------------------------- Media query */
     .about-img-one {
         margin-top: 6%;
     }
@@ -264,26 +269,22 @@ a.nav-link.header-link-text:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 280px) { /* ---------------------------- Media query */
     .about-img-two {
         margin-top: 2%;
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 576px) { /* ---------------------------- Media query */
     .about-img-two {
         margin-bottom: 2%;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) { /* ---------------------------- Media query */
     .about-img-two {
         margin-top: 4%;
     }
-}
-
-.about-text {
-    font-family: "Roboto", sans-serif;
 }
 
 .titles-about {
@@ -299,13 +300,13 @@ a.nav-link.header-link-text:hover {
     text-transform: capitalize;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) { /* ---------------------------- Media query */
     .about-buttons {
         display: none;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) { /* ---------------------------- Media query */
     .about-buttons {
         display: inline-block;
     }
@@ -320,8 +321,14 @@ dt {
     color:#15795b;
     font-weight: bold;
 }
-/* ---------------------------- Image page */
-.images-text-title {
+/* ----------------------------------------------------------- IMAGE GALLERY PAGE-------------------------------------------- */
+.image-gallery {
+    padding-bottom: 20px;
+    background-color: #91d18b;
+    border-top: 5px white;
+}
+
+#images-text-title {
     color: white;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
@@ -330,29 +337,11 @@ dt {
     text-shadow: 0.5px 0.5px black;
 }
 
-.images-text {
+#images-text {
     color: white;
     font-weight: bold;
     font-family: "Roboto", sans-serif;
     
-}
-
-.photo-credits a {
-    font-size: 0.7rem;
-    padding-top: 1.5%;
-    font-family: "Roboto", sans-serif;
-    color: white;
-    text-decoration: none;
-}
-
-.photo-credits a:hover {
-    color: #15795b;
-}
-
-.image-gallery {
-    padding-bottom: 20px;
-    background-color: #91d18b;
-    border-top: 5px white;
 }
 
 .gallery-photos {
@@ -366,7 +355,7 @@ dt {
     z-index: 2;
 }
 
-/* ---------------------------- contact page */
+/* ------------------------------------------------------------- CONTACT PAGE --------------------------------------------------*/
 
 .contact-us {
     background-color: #f2e7cf;
@@ -394,26 +383,26 @@ dt {
     background-color: #15795b;
     color: white;
 }
-/* ---------------------------- footer */
+/* --------------------------------------------------------------- FOOTER ------------------------------------------------------*/
 
 .my-footer {
     background-color:#41B45A;
     height: 100px;
 }
 
-@media (max-width: 530px) {
+@media (max-width: 530px) { /* ---------------------------- Media query */
     .my-footer {
         height: 100%;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) { /* ---------------------------- Media query */
     .my-footer {
         height: 100%;
     }
 }
 
-@media (max-width: 998px) {
+@media (max-width: 998px) { /* ---------------------------- Media query */
     .my-footer {
         height: 100%;
     }
@@ -440,10 +429,10 @@ dt {
     font-size: 18px;
 }
 
-.footer-email {
+#footer-email {
     color: white;
 }
 
-.footer-email:hover {
+#footer-email:hover {
     color: #15795b;
 }
