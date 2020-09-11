@@ -188,9 +188,27 @@ Some of these features would require addtional technologies not part of this mod
 
 ## **Testing**
 
-Further details on this section will be added but the initial testing plan will be to use the follow tools/methods:
+For testing the site I used the following tools/methods. 
+### [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
+This proved very useful in the production of the site as it allowed me to not only fix bugs whilst creating the site but I could also play around with styling to what worked best on different screen sizes. It has an inbuilt features to view my site in reponsive and handheld devices. 
 
-* W3C HTML & CSS validation services to check for bugs in HTML/CSS
+### [W3C HTML validator](https://validator.w3.org/) 
+This was used to check my HTML for errors. It found the below errors which I fixed by removing type="button" which was not necessary.
+I was also able to remove an redundant id="nav-image" which if used should have actually been a class as it was used more than once for styling. 
+After fixing these issues the results returned as no errors. 
+
+**HTML Validator check** 
+![HTML validator errors](/assets/images/HTML-validator-errors.png)
+
+**Now no errors after fix**
+![HTML validator no errors](/assets/images/HTML-validator-no-errors.jpg)
+
+### [W3C CSS Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+**Pheww no errors first time!!**
+
+![CSS validator no errors](/assets/images/CSS-Validator-no-errors.jpg)
+
 * Chrome DevTools and inspector to check to test the responsiveness of the site on different devices.
 * A spreadsheet will also be created to test and document the navigation links and loading times on the following browsers
     * Safari
