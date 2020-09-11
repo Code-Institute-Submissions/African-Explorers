@@ -118,10 +118,15 @@ The colour scheme was chose on the basis that I wanted a simple, clean and visua
 * For the testimonial and latest sighting sections of the site the background colour will be F2E7CF Champagne which will give the area a subtle highlight to draw attention and is a shade of brown/yellow found on the African plains.
 * Text colour through the site will be black. This was chosen as it easy to read on all colours chosen.
 
+### **Additonal colours used in finished site**
+
+An additonal colour of 91D18B which is a light green was added as a background colour to the image gallery section of the site. This is because the site was changed to a single page layout on advise from one of my mentors and I needed
+to signify a new section. The colour visually matched well with the rest of the site and suits the theme (safari).
+
 ---
 ## **Wireframes**
 
-![Wireframes](/wireframes/desktop_wf/index.html.png)
+![Wireframes](/wireframes/index.png)
 
 To create my wireframes I uses a software called Balsamiq to create low fidelity frames of the site. 
 I chose Balsamiq as it is user friendly and allows you to add graphical images which I find very helpful for visualising the site. For example the graphics
@@ -207,7 +212,7 @@ Further steps to follow...
 * [Coolors.co](https://coolors.co/)
 * Article written by [Dennis Pinto from Travel + Lesisure](https://www.travelandleisure.com/trip-ideas/safaris/evolution-of-safari-travel#:~:text=%22Additionally,%20the%20typical%20safari%20traveler,have%20been%20closer%20to%2070.) about the age of safari travellers 
 * [Code Institue](https://codeinstitute.net/) and the very helpful tutors
-* My mentors for this project [Simen Daehlin](https://dehlin.dev/) and [Mark Railton](https://github.com/railto)
+* My mentors for this project [Simen Daehlin](https://dehlin.dev/) and [Mark Railton](https://github.com/railto). Should be noted that Mark provided the JavaScript code for contact form to display "this is just a sample form".
 * Images
     * Elephant banner image for Readme provided by [Greg Montani at Pixabay](https://pixabay.com/users/gregmontani-1014946/)
     * Rhino background image for large devices provided by [Lucas Alexander at Unsplash](https://unsplash.com/@lucasalexander)
