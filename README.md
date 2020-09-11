@@ -16,8 +16,7 @@
         * Colours
     * [Wireframes](#wireframes)
     * [Features](#features)
-        * Features that have been implemented
-        * Features that will be implemented in the future
+        * Features that could be implemented in the future
     * [Technologies](#technologies-used)
 * [Testing](#testing)
 * [Bugs](#bugs)
@@ -144,17 +143,25 @@ As I am building this site to be responsive it was very important for me to prod
 
 Features on the site:
 
-* Header with navigation bar
-* Email link within header
-* Banner image 
-* Images on index.html
+* Navigation bar
+* Jumbotron with background image on landing page
 * Call to action find out more button
-* Scrolling testimonials (carousel)
+* Scrolling testimonials (carousel) on landing page
 * Footer with social media links and email link
-* Image gallery page 
+* Image gallery section 
 * About us page
+* Images on about us section
+* Call to action buttons to view images or contact on about us section
 * Recent sightings article 
 * Contact form 
+
+### **Features that could be implemented in the future**
+
+Some of these features would require addtional technologies not part of this module. 
+
+* Scrolling background images on landing page so the user does not only have one background image
+* An lightbox image gallery instead of opening in a new tab
+* Google maps location
 
 ---
 
