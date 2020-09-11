@@ -204,6 +204,39 @@ Further details on this section will be added but the initial testing plan will 
 
 ## **Bugs**
 
+This are issues I encountered during the building of the site that I was able to fix as I went along. 
+
+### **Jumbotron**
+
+The issue I had with the jumbotron was that the background image and text were not fully responsive on handheld devices. It seems it is a common problem with Bootstrap jumbotrons and there are a few methods to fix it. 
+
+The best solution for the text was to use media queries to alter the size and placement (via margin) depending on screen size. 
+
+For the background image could have used the same approach but it would take a lot of time tweaking the size and positioning of the element and may still not look great. In the end I decided to switch the background image for another one which had better
+proportions for smaller devices using media queries. 
+
+### **Carousel**
+
+I had a similar issue with the carousel testimonial section on the landing page in that the slider and next/previous buttons would overlap either on the side or below on smaller devices. From a design point of view I decided to remove them on mobile devices
+as I felt it would be fiddly to use the buttons on smaller screens away. It automatic moves through the quotes so not essential to have them. 
+
+### **About us section** 
+
+Due to the design layout of the about us section it caused a lot of difficulties in different screen sizes. The elements would often lose spacing between them and the bottom image would not stretch. 
+I fix the bottom image issue but changing col-md-6 to col-sm-12 and changing the width of the image to 100%. 
+
+To fix spacing issues I referred to bootstraps media break points and added media queries to add margin for better visual placement. It's not 100% perfect and I could carry on forever altering this, but it is much better. 
+I also removed the call to action buttons on tablet size screens to help with spacing and placement of elements. The site has a fixed narbar and is single page so I felt it could live without them. 
+
+### **Anchor links**
+
+Another bug I had was with the anchor links to navigate around the site. Due to having a fixed navbar it would cut out the top 100px of each section when navigating. 
+I had to add to the html document in the css file scroll-padding-top: 100px to fix this. 
+
+### **Footer**
+
+I noticed with my footer that on some smaller devices the footer would float up the page. I had to fix this using media queries and changing the height to 100%. 
+
 ---
 
 ## **Finished site**
@@ -222,7 +255,7 @@ to signify a new section. The colour visually matched well with the rest of the 
 
 There has been a few design changes made from original UX designs that should be noted.
 
-#### **NavBar**
+### **NavBar**
 As I was using Boostrap I decided to go with a bootstrap navbar rather than my custom made one as it more time effective and has built in responsiveness with a hamburger icon in smaller devices. 
 I was still able to fully customise to my font and colour schemes with CSS so it was an effective decision. 
 
@@ -232,6 +265,9 @@ be creative and change the background image with different devices.
 
 ### **Additional call to action button**
 I added a click to contact us button on the about us section as well to provide an addtional call out and easier navigation.
+
+### **Change to single page site** 
+After discuss with one of my mentors it was advised that due to this being a simple site with not a lot of content it was recommended I switch to a single page site. 
 
 ---
 
