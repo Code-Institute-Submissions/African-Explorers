@@ -23,6 +23,7 @@
 * [Finished site](#finished-site)
     * Additional font
     * Aditional colour
+    * Design changes 
 * [Deployment](#deployment)
 * [Credit](#credits) 
 
@@ -159,7 +160,7 @@ Features on the site:
 
 Some of these features would require addtional technologies not part of this module. 
 
-* Scrolling background images on landing page so the user does not only have one background image
+* Scrolling background images on landing page so the user does not only have one background image via a carousel
 * An lightbox image gallery instead of opening in a new tab
 * Google maps location
 
@@ -212,12 +213,25 @@ Further details on this section will be added but the initial testing plan will 
 In the finished site I also used a font called Pangolin, cursive as I wanted to give a different style to the title in the navbar to give more of a logo look and feel to it. I felt this font suited the African theme and it is even named after a rare
 noctural animal found in Southern Africa. This font was also used for the title on the recent sightings section and within the jumbotron.
 
-### **Additonal colours used in finished site**
+### **Additonal colour used in finished site**
 
 An additonal colour of 91D18B which is a light green was added as a background colour to the image gallery section of the site. This is because the site was changed to a single page layout on advise from one of my mentors and I needed
 to signify a new section. The colour visually matched well with the rest of the site and suits the theme (safari).
 
+### **Design changes**
 
+There has been a few design changes made from original UX designs that should be noted.
+
+#### **NavBar**
+As I was using Boostrap I decided to go with a bootstrap navbar rather than my custom made one as it more time effective and has built in responsiveness with a hamburger icon in smaller devices. 
+I was still able to fully customise to my font and colour schemes with CSS so it was an effective decision. 
+
+### **Full page background image**
+I decided to go with a full page background image rather than a banner and additional images. I think this provided a much cleaner and grabbing look to the site and it allowed me to 
+be creative and change the background image with different devices.
+
+### **Additional call to action button**
+I added a click to contact us button on the about us section as well to provide an addtional call out and easier navigation.
 
 ---
 
