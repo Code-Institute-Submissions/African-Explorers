@@ -308,10 +308,12 @@ I noticed with my footer that on some smaller devices the footer would float up 
 
 ## **Finished site**
 
-### **Additonal font used in finished site**
+### **Additonal fonts used in finished site**
 
 In the finished site I also used a font called Pangolin, cursive as I wanted to give a different style to the title in the navbar to give more of a logo look and feel to it. I felt this font suited the African theme and it is even named after a rare
 noctural animal found in Southern Africa. This font was also used for the title on the recent sightings section and within the jumbotron.
+
+I also used a second additonal font in the recent sightings section called Patrick Hand cursive as this is a handrwitten style of font which I thought suited the section as it is meant to be like a recent sightings posting they have in national parks.
 
 ### **Additonal colour used in finished site**
 
