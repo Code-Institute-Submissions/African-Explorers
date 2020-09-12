@@ -92,7 +92,6 @@ a.nav-link.header-link-text:hover {
     }
 }
 
-
 .jumbotron h3 {
     color: white;
     padding-top: 1vh;
@@ -195,16 +194,19 @@ a.nav-link.header-link-text:hover {
 }
 
 #recent-title {
-    font-family: "Pangolin", cursive;
-    font-size: 18px;
+    font-family:'Patrick Hand', cursive;
+    font-size: 20px;
     color:#15795b;
     font-weight: bold;
 }
 
+.recent-text {
+    font-family:'Patrick Hand', cursive;
+    font-size: 18px;
+}
+
 .recent-sightings {
     padding-top: 8px;
-    font-style: italic;
-    font-size: 15px;
     background-color:#f2e7cf;
     border-radius: 15px;
     box-shadow: 0 0 10px;
@@ -231,52 +233,16 @@ a.nav-link.header-link-text:hover {
  }
 }
 
-/*@media screen and (max-width: 768px) { /
-    .medium-large-devices {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-@media screen and (max-width: 992px) { /
-    .medium-large-devices {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-}
-
-@media screen and (min-width: 576px) { 
-    .small-device {
-        margin-bottom: 2%
-    }
-}*/
-
 .about-img-one {
     margin-top: 4%;
     margin-bottom: 4%;
     width: 100%;
-    height: 19rem;
+    height: 20rem;
     object-fit: cover;
+    object-position: 50% 68%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/*@media screen and (min-width: 768px) { 
-    .about-img-one {
-        margin-top: 8%;
-    }
-}
-
-@media screen and (min-width: 993px) { 
-    .about-img-one {
-        margin-top: 8%;
-    }
-}
-
-@media screen and (min-width: 1200px) { 
-    .about-img-one {
-        margin-top: 6%;
-    }
-}*/
 
 .about-img-two {
     width: 100%;
@@ -284,24 +250,6 @@ a.nav-link.header-link-text:hover {
     object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
-/*@media screen and (min-width: 280px) { 
-    .about-img-two {
-        margin-top: 2%;
-    }
-}
-
-@media screen and (min-width: 576px) { 
-    .about-img-two {
-        margin-bottom: 2%;
-    }
-}
-
-@media screen and (min-width: 1200px) { 
-    .about-img-two {
-        margin-top: 4%;
-    }
-}*/
 
 .titles-about {
     color:#15795b;
@@ -316,17 +264,6 @@ a.nav-link.header-link-text:hover {
     text-transform: capitalize;
 }
 
-/*@media screen and (min-width: 768px) { 
-    .about-buttons {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 992px) { 
-    .about-buttons {
-        display: inline-block;
-    }
-}*/
 
 .about-buttons:hover {
     background-color: #15795b;
