@@ -262,6 +262,11 @@ It returned a grade C so could be better but it still loads in under a second wh
 With the contact form the main two things I wanted to check was that if information was not filled in a required field it would display an error message which it did. The second aspect being that once filled in and the send button hit it
 returned a message saying "this is just a sample form and your data has not been sent anywhere, which it did. 
 
+![Fill in Field](/assets/images/field-message.png)
+
+
+![Sample Form](/assets/images/sample-form.jpg)
+
 ---
 
 ## **Bugs**
