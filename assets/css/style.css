@@ -194,14 +194,14 @@ a.nav-link.header-link-text:hover {
 }
 
 #recent-title {
-    font-family:'Patrick Hand', cursive;
+    font-family: "Patrick Hand", "Roboto", cursive, sans-serif;
     font-size: 20px;
     color:#15795b;
     font-weight: bold;
 }
 
 .recent-text {
-    font-family:'Patrick Hand', cursive;
+    font-family: "Patrick Hand", "Roboto", cursive, sans-serif;
     font-size: 18px;
 }
 
