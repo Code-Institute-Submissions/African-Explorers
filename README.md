@@ -35,7 +35,7 @@
 
 The goal of this project is to provide a clear & concise online presence to the fictional business 
 African Explorers. African Explorers are a tour operator who specialise in guided safari 
-tours in search of the famous big 5 (Lion, Elephant, Rhino, Leopard, Buffalo) in the authentic wilderness of the ..... national park in Southern Africa. 
+tours in search of the famous big 5 (Lion, Elephant, Rhino, Leopard, Buffalo) in the authentic wilderness of the Okavango Delta in Southern Africa. 
 
 With the busy modern lives of customers and a high amount of business competition in this area the site needs
 to be simple to navigate with the information on the company & tours provided with as little mouse clicks and scrolling as possible.    
@@ -212,44 +212,25 @@ After fixing these issues the results returned as no errors.
 
 ![CSS validator no errors](/assets/images/CSS-Validator-no-errors.jpg)
 
+###[Autoprefixer](https://autoprefixer.github.io/)**
 
-**Manual Testing** 
+I used Autoprefixer to analyse the sites compatibility with different browsers. By ruuning by CSS code
+through autoprefixer it auotmatically shows me where I need to add webkit and moz to render with Safari and Chrome. An example is below:
 
-Here I tested all the links on the page and display of background images on different browsers. Below are my results:
+![Autoprefixer](assets/images/autoprefixer.jpg)
 
-![Manual Testing](/assets/images/manual-testing2.jpg)
+### Manual Testing 
+
+I first tested the site on different browser to see the results. As you can see from below my only issues being with Internet Explorer. 
+![Manual Testing Browsers](/assets/images/manual-testing-browsers.jpg)
+
+## Responsiveness
+
+Next I tested the site on different devices (small, medium, and large) and bootstrap media breakpoints using Chrome Developer tools. Below are my results:
+![Manual Testing Responsive](/assets/images/manual-testing-responsive.png)
 
 
-**Responsiveness**
-
-To test responsiveness I used Chrome Developer tools to see how my site would display on different devices. 
-This allowed me to test on the following devices:
-
-* Moto G4
-* Galaxy S5
-* Pixel 2
-* Pixel 2 XL
-* Iphone 5
-* Iphone 6/7/8
-* Iphone 6/7/8/Plus
-* Iphone X
-* Ipad
-* Ipad Project
-* Surface document
-* Galaxy fold 
-
-I also used the responsive option to test how it looked on the different bootstrap breakpoints of:
-
-* 576px
-* 768px
-* 992px
-* 1200px
-
-And various random sizes. 
-
-As explained in the [Bugs](#bugs) section of this document there was some issues with responsiveness for the background image, carousel, and about us section. These were discovered using Chrome tools and fixed with media queries.
-
-**Speed**
+## Speed
 
 I tested the speed of the site using [Pingdom](https://tools.pingdom.com/) a free website. It returned the below result.
 
@@ -257,7 +238,7 @@ I tested the speed of the site using [Pingdom](https://tools.pingdom.com/) a fre
 
 It returned a grade C so could be better but it still loads in under a second which is a good load speed. 
 
-**Contact form**
+## Contact form
 
 With the contact form the main two things I wanted to check was that if information was not filled in a required field it would display an error message which it did. The second aspect being that once filled in and the send button hit it
 returned a message saying "this is just a sample form and your data has not been sent anywhere, which it did. 
@@ -290,10 +271,9 @@ as I felt it would be fiddly to use the buttons on smaller screens away. It auto
 ### **About us section** 
 
 Due to the design layout of the about us section it caused a lot of difficulties in different screen sizes. The elements would often lose spacing between them and the bottom image would not stretch. 
-I fix the bottom image issue but changing col-md-6 to col-sm-12 and changing the width of the image to 100%. 
 
-To fix spacing issues I referred to bootstraps media break points and added media queries to add margin for better visual placement. It's not 100% perfect and I could carry on forever altering this, but it is much better. 
-I also removed the call to action buttons on tablet size screens to help with spacing and placement of elements. The site has a fixed narbar and is single page so I felt it could live without them. 
+I tried to fix this issue with different media queries at various sizes but the elements moved so much that it was easier to redesign the look of the site. I still had to add a media query for tablet/laptop size as large white space appeared
+on the right hand side when the recent sightings section would disppear as planned. 
 
 ### **Anchor links**
 
@@ -332,8 +312,11 @@ I was still able to fully customise to my font and colour schemes with CSS so it
 I decided to go with a full page background image rather than a banner and additional images. I think this provided a much cleaner and grabbing look to the site and it allowed me to 
 be creative and change the background image with different devices.
 
+### **Redesign of about us section. 
+As explained in the bugs section due to responsiveness issues it proved more efficient to redesign to a simpler layout. 
+
 ### **Additional call to action button**
-I added a click to contact us button on the about us section as well to provide an addtional call out and easier navigation.
+I added a click to contact us button on the about us section as well to provide an additional click to see images button for easier navigation.
 
 ### **Change to single page site** 
 After discuss with one of my mentors it was advised that due to this being a simple site with not a lot of content it was recommended I switch to a single page site. 
