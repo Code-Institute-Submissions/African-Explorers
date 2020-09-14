@@ -197,7 +197,7 @@ Some of these features would require additional technologies not part of this mo
 
 For testing the site I used the following tools/methods. 
 ### [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-This proved very useful in the production of the site as it allowed me to not only fix bugs whilst creating the site but I could also play around with styling to what worked best on different screen sizes. It has an inbuilt features to view my site in responsive and handheld devices. 
+This proved very useful in the production of the site as it allowed me to not only fix bugs whilst creating the site but I could also play around with what styling worked best on different screen sizes. It has an inbuilt features to view my site in responsive and handheld devices. 
 
 ![Chrome tools big screen](/assets/images/Chrome-tools-1.jpg)
 ![Chrome tools small screen](/assets/images/Chrome-tools-2.jpg)
@@ -309,7 +309,7 @@ to signify a new section. The colour visually matched well with the rest of the 
 
 ### **Design changes**
 
-There has been a few design changes made from original UX designs that should be noted.
+There has been a few design changes made from original UX designs that should be noted below:
 
 ### **NavBar**
 As I was using Bootstrap I decided to go with a bootstrap navbar rather than my custom made one as it more time effective and has built in responsiveness with a hamburger icon in smaller devices. 
@@ -319,7 +319,7 @@ I was still able to fully customise to my font and colour schemes with CSS so it
 I decided to go with a full page background image rather than a banner and additional images. I think this provided a much cleaner and grabbing look to the site and it allowed me to 
 be creative and change the background image with different devices.
 
-### **Redesign of about us section. 
+### **Redesign of about us section**
 As explained in the bugs section due to responsiveness issues it proved more efficient to redesign to a simpler layout. 
 
 ### **Additional call to action button**
@@ -332,9 +332,32 @@ After discuss with one of my mentors it was advised that due to this being a sim
 
 ## **Deployment** 
 
-African Explorers is built on GitPod using Git and GitHub to host the repository.
+African Explorers was developed on GitPod, using git and GitHub to host the repository.
 
-Further steps to follow...
+To deploy African Explorers on GitHub Pages I had to make the follow the steps below:
+
+* Opened up GitHub in my browser
+* Signed in using my username and password
+* Selected my African Explorers repositories
+* Navigated to https://github.com/TobyGreet/African-Explorers
+* Click on setting in the top right of the navigation bar
+* Scrolled down to the GitHub Pages area
+* Selected 'Master Branch' from the 'Source' dropdown menu
+* Clicked save to confirm my selection.
+* African Explorers is now live on GitHub Pages: https://tobygreet.github.io/African-Explorers/
+
+### How to run/clone locally:
+
+Running African Explorers Locally
+Cloning African Explorers from GitHub:
+
+* Navigate to https://github.com/TobyGreet/African-Explorers
+* Click the green code button
+* Copy the url in the dropdown box that will appear
+* Using your favourite IDE open up your preferred terminal
+* Navigate to your desired file location
+* Copy the following code and input it into your terminal to clone African Explorers:
+https://github.com/TobyGreet/African-Explorers.git
 
 ---
 
