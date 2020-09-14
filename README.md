@@ -11,19 +11,26 @@
     * [Site Owner Goals](#site-owner-goals)
     * [User Requirements and Expectations](#user-requirements-and-expectations)
     * [Design Choices](#design-choices)
-        * Fonts
-        * Icons
-        * Colours
+        * [Fonts](#fonts)
+        * [Icons](#icons)
+        * [Colours](#colours)
     * [Wireframes](#wireframes)
     * [Features](#features)
-        * Features that could be implemented in the future
+        * [Features that could be implemented in the future](#features)
     * [Technologies](#technologies-used)
 * [Testing](#testing)
+    * [Chrome DevTools](#chrome-devtools)
+    * [W3C](#w3c-html-validator)
+    * [Autoprefixer](#autoprefixer)
+    * [Manual testing](#manual-testing)
+    * [Responsiveness](#responsiveness)
+    * [Speed](#speed)
+    * [Contact form](#contact-form) 
 * [Bugs](#bugs)
 * [Finished site](#finished-site)
-    * Additional font
-    * Aditional colour
-    * Design changes 
+    * [Additional fonts](#additonal-fonts-used-in-finished-site)
+    * [Aditional colour](#additonal-colour-used-in-finished-site)
+    * [Design changes](#design-changes) 
 * [Deployment](#deployment)
 * [Credit](#credits) 
 
@@ -96,7 +103,7 @@ and give the impression that African Explorers are an efficient and professional
 
 The average age of a buying customer for safari travel is [50 years old](https://www.travelandleisure.com/trip-ideas/safaris/evolution-of-safari-travel#:~:text=%22Additionally,%20the%20typical%20safari%20traveler,have%20been%20closer%20to%2070.) (actually a drop from 70 over the last 20 years) showing that it is a form of travel most popular with working middle aged professionals.
 
-This was very much on my mind when designing the site. People of this age are more likely to be busy with work, commutes, and family commitments meaning time is more precious.  Because of this I want the site to be of minlistic design, straight to the point and with key information easily findable with little searching. 
+This was very much on my mind when designing the site. People of this age are more likely to be busy with work, commutes, and family commitments meaning time is more precious.  Because of this I want the site to be of minimalist design, straight to the point and with key information easily findable with little searching. 
 I didn't feel the need for alternative street style fonts & colours which would appeal to a younger audience for example. 
 
 People of this age group are also likely to be on the move a lot due work & family travel commitments so I have a decided to go with a mobile first design with Bootstrap. 
@@ -158,7 +165,7 @@ Features on the site:
 
 ### **Features that could be implemented in the future**
 
-Some of these features would require addtional technologies not part of this module. 
+Some of these features would require additional technologies not part of this module. 
 
 * Scrolling background images on landing page so the user does not only have one background image via a carousel
 * An lightbox image gallery instead of opening in a new tab
@@ -190,7 +197,7 @@ Some of these features would require addtional technologies not part of this mod
 
 For testing the site I used the following tools/methods. 
 ### [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools)
-This proved very useful in the production of the site as it allowed me to not only fix bugs whilst creating the site but I could also play around with styling to what worked best on different screen sizes. It has an inbuilt features to view my site in reponsive and handheld devices. 
+This proved very useful in the production of the site as it allowed me to not only fix bugs whilst creating the site but I could also play around with styling to what worked best on different screen sizes. It has an inbuilt features to view my site in responsive and handheld devices. 
 
 ![Chrome tools big screen](/assets/images/Chrome-tools-1.jpg)
 ![Chrome tools small screen](/assets/images/Chrome-tools-2.jpg)
@@ -212,14 +219,14 @@ After fixing these issues the results returned as no errors.
 
 ![CSS validator no errors](/assets/images/CSS-Validator-no-errors.jpg)
 
-###[Autoprefixer](https://autoprefixer.github.io/)**
+### [Autoprefixer](https://autoprefixer.github.io/)
 
-I used Autoprefixer to analyse the sites compatibility with different browsers. By ruuning by CSS code
-through autoprefixer it auotmatically shows me where I need to add webkit and moz to render with Safari and Chrome. An example is below:
+I used Autoprefixer to analyse the sites compatibility with different browsers. By running by CSS code
+through autoprefixer it automatically shows me where I need to add webkit and moz to render with Safari and Chrome. An example is below:
 
 ![Autoprefixer](assets/images/autoprefixer.jpg)
 
-### Manual Testing 
+## Manual Testing 
 
 I first tested the site on different browser to see the results. As you can see from below my only issues being with Internet Explorer. 
 ![Manual Testing Browsers](/assets/images/manual-testing-browsers.jpg)
@@ -273,7 +280,7 @@ as I felt it would be fiddly to use the buttons on smaller screens away. It auto
 Due to the design layout of the about us section it caused a lot of difficulties in different screen sizes. The elements would often lose spacing between them and the bottom image would not stretch. 
 
 I tried to fix this issue with different media queries at various sizes but the elements moved so much that it was easier to redesign the look of the site. I still had to add a media query for tablet/laptop size as large white space appeared
-on the right hand side when the recent sightings section would disppear as planned. 
+on the right hand side when the recent sightings section would disappear as planned. 
 
 ### **Anchor links**
 
@@ -291,13 +298,13 @@ I noticed with my footer that on some smaller devices the footer would float up 
 ### **Additonal fonts used in finished site**
 
 In the finished site I also used a font called Pangolin, cursive as I wanted to give a different style to the title in the navbar to give more of a logo look and feel to it. I felt this font suited the African theme and it is even named after a rare
-noctural animal found in Southern Africa. This font was also used for the title on the recent sightings section and within the jumbotron.
+nocturnal animal found in Southern Africa. This font was also used for the title on the recent sightings section and within the jumbotron.
 
-I also used a second additonal font in the recent sightings section called Patrick Hand cursive as this is a handrwitten style of font which I thought suited the section as it is meant to be like a recent sightings posting they have in national parks.
+I also used a second additional font in the recent sightings section called Patrick Hand cursive as this is a handwritten style of font which I thought suited the section as it is meant to be like a recent sightings posting they have in national parks.
 
 ### **Additonal colour used in finished site**
 
-An additonal colour of 91D18B which is a light green was added as a background colour to the image gallery section of the site. This is because the site was changed to a single page layout on advise from one of my mentors and I needed
+An additional colour of 91D18B which is a light green was added as a background colour to the image gallery section of the site. This is because the site was changed to a single page layout on advise from one of my mentors and I needed
 to signify a new section. The colour visually matched well with the rest of the site and suits the theme (safari).
 
 ### **Design changes**
@@ -305,7 +312,7 @@ to signify a new section. The colour visually matched well with the rest of the 
 There has been a few design changes made from original UX designs that should be noted.
 
 ### **NavBar**
-As I was using Boostrap I decided to go with a bootstrap navbar rather than my custom made one as it more time effective and has built in responsiveness with a hamburger icon in smaller devices. 
+As I was using Bootstrap I decided to go with a bootstrap navbar rather than my custom made one as it more time effective and has built in responsiveness with a hamburger icon in smaller devices. 
 I was still able to fully customise to my font and colour schemes with CSS so it was an effective decision. 
 
 ### **Full page background image**
